@@ -1,0 +1,1001 @@
+Item_ID,Item_Weight,Item_Fat_Content,Item_Visibility,Item_Type,Item_MRP,Outlet_ID,Outlet_Establishment_Year,Outlet_Size,Outlet_Location_Type,Outlet_Type,Item_Outlet_Sales
+ITM0001,11.17,Regular,0.137,Soft Drinks,89.68,OUT001,2013,Small,Tier 1,Supermarket Type2,2055.5
+ITM0002,18.66,Regular,0.214,Canned,60.13,OUT002,2003,Small,Tier 3,Grocery Store,1863.47
+ITM0003,17.71,Regular,0.061,Soft Drinks,26.16,OUT001,2017,Large,Tier 2,Grocery Store,1042.87
+ITM0004,3.32,Low Fat,0.083,Dairy,41.75,OUT003,2018,Medium,Tier 2,Supermarket Type2,1223.59
+ITM0005,13.56,Low Fat,0.103,Baking Goods,427.97,OUT002,2013,Small,Tier 2,Grocery Store,1437.74
+ITM0006,17.57,Regular,0.094,Canned,40.37,OUT001,2013,Large,Tier 2,Grocery Store,3038.79
+ITM0007,8.12,Low Fat,0.172,Frozen Foods,247.08,OUT003,2017,Small,Tier 3,Grocery Store,3007.63
+ITM0008,14.07,Low Fat,0.105,Frozen Foods,365.0,OUT005,2001,Small,Tier 2,Supermarket Type2,2402.4
+ITM0009,8.96,Low Fat,0.102,Canned,282.77,OUT003,2005,Small,Tier 1,Supermarket Type1,638.88
+ITM0010,10.39,Low Fat,0.047,Fruits & Vegetables,283.73,OUT005,1999,Small,Tier 2,Supermarket Type2,3107.64
+ITM0011,12.07,Low Fat,0.018,Frozen Foods,112.51,OUT005,2019,Large,Tier 2,Supermarket Type1,387.07
+ITM0012,4.55,Low Fat,0.202,Soft Drinks,415.9,OUT001,2002,Medium,Tier 2,Grocery Store,1918.51
+ITM0013,19.01,Regular,0.15,Fruits & Vegetables,376.79,OUT005,2012,Small,Tier 3,Grocery Store,2840.11
+ITM0014,10.77,Low Fat,0.207,Fruits & Vegetables,165.52,OUT001,2008,Medium,Tier 1,Grocery Store,1013.25
+ITM0015,2.21,Low Fat,0.182,Frozen Foods,400.05,OUT003,2009,Large,Tier 1,Grocery Store,2855.43
+ITM0016,19.8,Regular,0.157,Frozen Foods,72.12,OUT001,1999,Large,Tier 3,Grocery Store,1536.62
+ITM0017,11.6,Regular,0.169,Health and Hygiene,404.12,OUT002,2019,Medium,Tier 2,Supermarket Type1,1407.04
+ITM0018,3.13,Low Fat,0.05,Frozen Foods,462.34,OUT004,2012,Small,Tier 2,Supermarket Type2,869.57
+ITM0019,2.75,Low Fat,0.15,Dairy,146.93,OUT001,2000,Medium,Tier 1,Supermarket Type1,630.9
+ITM0020,18.3,Low Fat,0.028,Frozen Foods,433.2,OUT002,2003,Large,Tier 3,Supermarket Type2,3468.52
+ITM0021,13.42,Regular,0.168,Dairy,315.88,OUT003,2004,Large,Tier 1,Grocery Store,1811.13
+ITM0022,15.74,Regular,0.126,Snack Foods,73.97,OUT003,2007,Medium,Tier 1,Grocery Store,2814.24
+ITM0023,3.61,Regular,0.071,Soft Drinks,90.33,OUT002,2014,Medium,Tier 1,Supermarket Type2,836.88
+ITM0024,3.18,Regular,0.037,Baking Goods,485.17,OUT002,2005,Large,Tier 2,Supermarket Type1,2860.89
+ITM0025,4.02,Regular,0.247,Snack Foods,212.38,OUT004,2012,Medium,Tier 3,Supermarket Type2,265.83
+ITM0026,1.52,Regular,0.167,Snack Foods,75.32,OUT004,2012,Medium,Tier 3,Supermarket Type1,2299.72
+ITM0027,4.59,Regular,0.196,Canned,440.63,OUT002,2018,Large,Tier 2,Supermarket Type1,2999.72
+ITM0028,1.46,Regular,0.079,Snack Foods,193.07,OUT003,1999,Medium,Tier 3,Supermarket Type1,1280.13
+ITM0029,15.21,Low Fat,0.061,Soft Drinks,281.75,OUT002,2002,Medium,Tier 3,Supermarket Type2,556.74
+ITM0030,12.94,Regular,0.141,Dairy,400.11,OUT002,2008,Large,Tier 3,Grocery Store,3456.37
+ITM0031,13.01,Regular,0.016,Baking Goods,166.24,OUT002,2008,Small,Tier 2,Supermarket Type1,896.43
+ITM0032,11.32,Regular,0.209,Health and Hygiene,353.66,OUT003,2012,Medium,Tier 1,Supermarket Type1,2419.86
+ITM0033,5.74,Regular,0.098,Canned,23.89,OUT005,2020,Small,Tier 1,Grocery Store,1868.57
+ITM0034,4.6,Low Fat,0.216,Frozen Foods,233.32,OUT002,2009,Medium,Tier 1,Supermarket Type2,1845.62
+ITM0035,8.42,Regular,0.143,Soft Drinks,402.31,OUT004,2015,Medium,Tier 2,Grocery Store,2172.55
+ITM0036,4.8,Low Fat,0.22,Baking Goods,172.27,OUT003,2018,Medium,Tier 2,Supermarket Type1,1201.92
+ITM0037,18.73,Regular,0.093,Household,318.2,OUT005,2019,Medium,Tier 2,Grocery Store,2166.19
+ITM0038,11.75,Regular,0.085,Fruits & Vegetables,413.67,OUT002,2009,Large,Tier 2,Supermarket Type1,486.14
+ITM0039,14.08,Regular,0.191,Baking Goods,458.16,OUT005,2014,Small,Tier 1,Supermarket Type2,1431.51
+ITM0040,15.4,Low Fat,0.101,Fruits & Vegetables,260.63,OUT002,2010,Large,Tier 2,Supermarket Type1,1816.49
+ITM0041,9.21,Regular,0.212,Soft Drinks,229.41,OUT003,2013,Small,Tier 3,Supermarket Type1,667.96
+ITM0042,13.05,Regular,0.084,Baking Goods,200.02,OUT002,2004,Large,Tier 1,Grocery Store,3014.62
+ITM0043,1.82,Low Fat,0.19,Household,347.93,OUT002,2009,Large,Tier 2,Grocery Store,2039.47
+ITM0044,3.48,Regular,0.116,Canned,30.0,OUT001,2009,Large,Tier 1,Supermarket Type1,2270.9
+ITM0045,9.78,Regular,0.119,Canned,367.15,OUT001,2016,Small,Tier 3,Supermarket Type2,2032.99
+ITM0046,19.86,Low Fat,0.123,Canned,490.69,OUT005,2020,Small,Tier 1,Supermarket Type2,2702.67
+ITM0047,12.17,Low Fat,0.111,Baking Goods,296.41,OUT003,2009,Small,Tier 1,Grocery Store,2286.39
+ITM0048,14.11,Regular,0.189,Baking Goods,370.81,OUT001,2005,Medium,Tier 1,Grocery Store,1352.37
+ITM0049,13.41,Regular,0.215,Dairy,149.51,OUT005,2009,Large,Tier 2,Grocery Store,1404.3
+ITM0050,13.57,Low Fat,0.166,Baking Goods,261.22,OUT002,2003,Medium,Tier 1,Supermarket Type2,2792.04
+ITM0051,15.22,Low Fat,0.185,Soft Drinks,328.66,OUT001,1999,Medium,Tier 2,Supermarket Type2,1041.89
+ITM0052,9.15,Low Fat,0.208,Household,211.08,OUT001,2020,Large,Tier 1,Supermarket Type1,2260.58
+ITM0053,15.36,Low Fat,0.223,Fruits & Vegetables,37.2,OUT003,2003,Medium,Tier 3,Grocery Store,302.81
+ITM0054,11.27,Low Fat,0.166,Fruits & Vegetables,342.0,OUT003,2006,Small,Tier 3,Supermarket Type2,900.68
+ITM0055,18.2,Regular,0.235,Dairy,182.0,OUT002,2000,Small,Tier 1,Supermarket Type1,1140.15
+ITM0056,7.54,Regular,0.24,Household,299.33,OUT002,2013,Medium,Tier 1,Supermarket Type2,3006.24
+ITM0057,11.54,Low Fat,0.121,Household,173.89,OUT004,2013,Large,Tier 1,Grocery Store,1314.72
+ITM0058,7.83,Regular,0.21,Frozen Foods,400.97,OUT004,2014,Large,Tier 3,Supermarket Type1,1794.99
+ITM0059,1.6,Low Fat,0.21,Dairy,62.69,OUT002,2006,Large,Tier 1,Supermarket Type2,1285.19
+ITM0060,12.9,Regular,0.18,Canned,379.38,OUT001,2003,Small,Tier 2,Supermarket Type1,2742.26
+ITM0061,11.89,Regular,0.2,Health and Hygiene,162.43,OUT002,2011,Medium,Tier 1,Supermarket Type1,939.91
+ITM0062,7.39,Low Fat,0.165,Fruits & Vegetables,392.8,OUT004,2003,Large,Tier 3,Supermarket Type2,2051.91
+ITM0063,6.45,Low Fat,0.191,Health and Hygiene,246.61,OUT002,2011,Large,Tier 2,Grocery Store,242.29
+ITM0064,18.12,Regular,0.24,Canned,487.53,OUT001,2003,Medium,Tier 1,Grocery Store,3426.55
+ITM0065,6.28,Regular,0.188,Soft Drinks,212.91,OUT002,2017,Medium,Tier 1,Grocery Store,2774.17
+ITM0066,11.6,Low Fat,0.045,Dairy,447.74,OUT002,2017,Medium,Tier 1,Grocery Store,2046.86
+ITM0067,11.84,Low Fat,0.098,Snack Foods,41.58,OUT005,2007,Medium,Tier 2,Supermarket Type2,1119.66
+ITM0068,6.54,Regular,0.212,Dairy,458.53,OUT001,2004,Medium,Tier 1,Grocery Store,2930.35
+ITM0069,6.41,Low Fat,0.059,Frozen Foods,68.41,OUT003,2004,Small,Tier 3,Supermarket Type1,2125.1
+ITM0070,2.96,Regular,0.091,Snack Foods,433.2,OUT002,2019,Small,Tier 2,Supermarket Type1,3053.04
+ITM0071,14.01,Low Fat,0.091,Health and Hygiene,277.02,OUT002,2001,Large,Tier 3,Supermarket Type2,2350.75
+ITM0072,4.22,Low Fat,0.072,Dairy,398.2,OUT001,2002,Large,Tier 3,Supermarket Type1,529.89
+ITM0073,11.19,Regular,0.247,Frozen Foods,202.01,OUT001,2007,Medium,Tier 1,Supermarket Type2,2727.14
+ITM0074,13.17,Regular,0.11,Snack Foods,437.36,OUT003,2015,Medium,Tier 3,Supermarket Type2,1870.06
+ITM0075,6.8,Regular,0.11,Dairy,246.35,OUT004,2003,Small,Tier 1,Supermarket Type1,1717.05
+ITM0076,2.84,Regular,0.145,Household,272.02,OUT002,2018,Small,Tier 3,Grocery Store,1662.15
+ITM0077,8.44,Regular,0.115,Frozen Foods,368.52,OUT003,2008,Small,Tier 3,Supermarket Type1,1062.49
+ITM0078,7.16,Low Fat,0.24,Frozen Foods,134.92,OUT003,2005,Large,Tier 2,Supermarket Type1,1797.73
+ITM0079,16.1,Regular,0.165,Health and Hygiene,476.35,OUT004,2018,Small,Tier 1,Supermarket Type2,2808.33
+ITM0080,17.24,Regular,0.095,Canned,75.33,OUT001,2016,Large,Tier 2,Supermarket Type1,2062.12
+ITM0081,10.92,Regular,0.059,Canned,419.04,OUT001,2015,Medium,Tier 3,Supermarket Type2,3304.54
+ITM0082,1.83,Low Fat,0.147,Snack Foods,461.88,OUT003,2012,Medium,Tier 2,Grocery Store,3243.34
+ITM0083,19.33,Low Fat,0.155,Soft Drinks,436.76,OUT004,2018,Large,Tier 3,Grocery Store,1111.04
+ITM0084,9.27,Low Fat,0.015,Soft Drinks,282.48,OUT004,2003,Medium,Tier 2,Grocery Store,1820.99
+ITM0085,3.19,Regular,0.096,Health and Hygiene,81.26,OUT004,2018,Large,Tier 2,Supermarket Type1,2878.01
+ITM0086,0.75,Regular,0.215,Soft Drinks,270.57,OUT005,2009,Small,Tier 1,Supermarket Type2,1984.04
+ITM0087,8.59,Regular,0.134,Snack Foods,316.33,OUT005,1999,Small,Tier 2,Supermarket Type2,1686.04
+ITM0088,9.48,Low Fat,0.213,Baking Goods,192.22,OUT005,2011,Medium,Tier 2,Supermarket Type1,1738.15
+ITM0089,2.82,Regular,0.135,Dairy,113.89,OUT001,2018,Large,Tier 3,Supermarket Type1,1176.21
+ITM0090,11.17,Low Fat,0.07,Fruits & Vegetables,454.41,OUT001,2010,Small,Tier 1,Grocery Store,2520.45
+ITM0091,18.85,Regular,0.193,Fruits & Vegetables,429.45,OUT005,2015,Medium,Tier 2,Grocery Store,1345.61
+ITM0092,8.37,Low Fat,0.216,Fruits & Vegetables,439.57,OUT004,2010,Small,Tier 1,Supermarket Type2,1519.6
+ITM0093,18.16,Low Fat,0.148,Canned,363.8,OUT001,1999,Small,Tier 3,Grocery Store,2756.69
+ITM0094,17.53,Regular,0.237,Health and Hygiene,301.87,OUT003,2015,Large,Tier 3,Supermarket Type2,1943.93
+ITM0095,13.76,Low Fat,0.148,Fruits & Vegetables,70.99,OUT005,2003,Medium,Tier 1,Supermarket Type1,2217.0
+ITM0096,6.54,Regular,0.22,Health and Hygiene,493.21,OUT001,2005,Large,Tier 3,Grocery Store,2553.11
+ITM0097,2.68,Regular,0.161,Soft Drinks,169.09,OUT001,2017,Medium,Tier 2,Grocery Store,2421.3
+ITM0098,11.7,Regular,0.122,Frozen Foods,376.57,OUT004,2013,Small,Tier 1,Supermarket Type1,335.99
+ITM0099,3.25,Low Fat,0.049,Soft Drinks,243.38,OUT001,2015,Small,Tier 3,Grocery Store,944.03
+ITM0100,1.34,Low Fat,0.065,Canned,487.54,OUT001,2008,Small,Tier 3,Grocery Store,3252.89
+ITM0101,19.08,Regular,0.125,Health and Hygiene,137.38,OUT003,2010,Small,Tier 2,Supermarket Type2,1378.37
+ITM0102,8.39,Regular,0.091,Fruits & Vegetables,107.13,OUT001,2009,Small,Tier 2,Supermarket Type2,668.16
+ITM0103,5.08,Regular,0.125,Frozen Foods,207.94,OUT005,2016,Small,Tier 3,Grocery Store,1356.38
+ITM0104,1.86,Low Fat,0.237,Dairy,313.17,OUT001,2004,Medium,Tier 3,Supermarket Type2,2811.27
+ITM0105,2.82,Regular,0.126,Frozen Foods,296.39,OUT004,2017,Small,Tier 3,Grocery Store,2101.09
+ITM0106,11.82,Regular,0.198,Dairy,85.29,OUT005,2013,Small,Tier 3,Supermarket Type2,645.71
+ITM0107,16.59,Low Fat,0.02,Dairy,174.44,OUT003,2000,Small,Tier 1,Supermarket Type1,2050.82
+ITM0108,7.71,Low Fat,0.153,Canned,310.11,OUT001,2002,Medium,Tier 1,Supermarket Type2,1366.24
+ITM0109,10.43,Regular,0.214,Health and Hygiene,369.93,OUT004,2000,Small,Tier 2,Grocery Store,2662.21
+ITM0110,1.76,Low Fat,0.159,Canned,376.53,OUT004,2008,Large,Tier 2,Supermarket Type2,1474.32
+ITM0111,7.44,Regular,0.034,Canned,68.09,OUT002,2015,Small,Tier 1,Supermarket Type2,2350.3
+ITM0112,16.04,Regular,0.135,Baking Goods,330.53,OUT005,1999,Medium,Tier 2,Supermarket Type1,3438.85
+ITM0113,1.79,Low Fat,0.042,Snack Foods,242.46,OUT005,2014,Small,Tier 2,Supermarket Type1,2052.51
+ITM0114,9.99,Low Fat,0.151,Snack Foods,96.85,OUT004,2000,Large,Tier 3,Grocery Store,2281.95
+ITM0115,15.5,Low Fat,0.058,Fruits & Vegetables,445.3,OUT003,2018,Large,Tier 1,Grocery Store,1998.18
+ITM0116,1.95,Low Fat,0.175,Canned,253.47,OUT002,2018,Medium,Tier 3,Supermarket Type1,2596.56
+ITM0117,9.67,Regular,0.164,Fruits & Vegetables,115.21,OUT002,2015,Small,Tier 2,Grocery Store,2920.93
+ITM0118,17.55,Low Fat,0.215,Household,173.63,OUT003,2002,Large,Tier 1,Supermarket Type1,1822.58
+ITM0119,0.94,Regular,0.109,Soft Drinks,302.4,OUT001,2010,Medium,Tier 2,Grocery Store,984.04
+ITM0120,6.58,Low Fat,0.222,Frozen Foods,71.08,OUT004,2007,Medium,Tier 3,Supermarket Type1,1807.78
+ITM0121,16.24,Low Fat,0.076,Fruits & Vegetables,486.3,OUT002,2011,Medium,Tier 3,Grocery Store,1693.84
+ITM0122,1.46,Regular,0.227,Dairy,409.12,OUT001,2002,Large,Tier 1,Supermarket Type2,726.02
+ITM0123,4.55,Regular,0.173,Canned,162.07,OUT005,2015,Small,Tier 3,Supermarket Type1,566.96
+ITM0124,15.09,Low Fat,0.051,Soft Drinks,184.85,OUT004,2010,Large,Tier 2,Supermarket Type2,1081.82
+ITM0125,3.51,Regular,0.121,Health and Hygiene,151.84,OUT003,2015,Medium,Tier 3,Grocery Store,2048.95
+ITM0126,12.07,Regular,0.23,Snack Foods,271.27,OUT003,2010,Large,Tier 1,Grocery Store,2151.34
+ITM0127,14.14,Regular,0.114,Dairy,168.66,OUT001,2002,Small,Tier 1,Grocery Store,1820.6
+ITM0128,15.56,Low Fat,0.082,Frozen Foods,356.7,OUT001,2015,Large,Tier 2,Supermarket Type2,2794.44
+ITM0129,15.53,Regular,0.114,Health and Hygiene,233.84,OUT001,2020,Small,Tier 1,Supermarket Type1,1141.45
+ITM0130,11.77,Regular,0.129,Household,418.75,OUT001,2013,Large,Tier 3,Grocery Store,1689.05
+ITM0131,10.0,Regular,0.026,Household,355.28,OUT002,2004,Medium,Tier 3,Supermarket Type1,1678.65
+ITM0132,13.95,Regular,0.228,Baking Goods,310.2,OUT004,2011,Small,Tier 3,Supermarket Type2,2711.57
+ITM0133,0.58,Low Fat,0.199,Snack Foods,413.45,OUT001,2006,Large,Tier 2,Grocery Store,3204.17
+ITM0134,1.32,Regular,0.156,Health and Hygiene,278.9,OUT003,2012,Medium,Tier 1,Supermarket Type2,582.24
+ITM0135,9.01,Regular,0.019,Soft Drinks,250.15,OUT002,2006,Small,Tier 3,Grocery Store,474.42
+ITM0136,5.2,Regular,0.102,Health and Hygiene,124.87,OUT001,2015,Small,Tier 2,Grocery Store,1836.2
+ITM0137,8.44,Low Fat,0.235,Baking Goods,73.88,OUT005,2015,Small,Tier 1,Supermarket Type1,199.34
+ITM0138,1.59,Regular,0.07,Snack Foods,470.04,OUT001,2000,Medium,Tier 3,Supermarket Type1,3557.32
+ITM0139,4.2,Regular,0.229,Baking Goods,469.71,OUT001,2002,Medium,Tier 1,Supermarket Type2,750.59
+ITM0140,8.13,Regular,0.074,Household,54.32,OUT001,2006,Medium,Tier 1,Supermarket Type2,1904.97
+ITM0141,11.38,Regular,0.073,Health and Hygiene,380.14,OUT005,2010,Medium,Tier 3,Supermarket Type1,906.36
+ITM0142,2.57,Low Fat,0.193,Snack Foods,137.59,OUT004,2011,Small,Tier 2,Grocery Store,2051.53
+ITM0143,1.79,Low Fat,0.127,Canned,82.6,OUT003,2017,Medium,Tier 3,Supermarket Type1,2904.44
+ITM0144,4.96,Regular,0.093,Fruits & Vegetables,143.66,OUT003,2016,Medium,Tier 1,Supermarket Type1,2118.36
+ITM0145,9.42,Regular,0.17,Baking Goods,181.88,OUT002,2001,Large,Tier 2,Supermarket Type1,1933.25
+ITM0146,2.33,Low Fat,0.062,Health and Hygiene,368.22,OUT002,2012,Small,Tier 3,Supermarket Type2,2440.98
+ITM0147,19.71,Low Fat,0.085,Health and Hygiene,470.43,OUT002,2011,Large,Tier 1,Supermarket Type2,3491.94
+ITM0148,7.25,Low Fat,0.136,Snack Foods,371.03,OUT004,2006,Large,Tier 3,Grocery Store,871.1
+ITM0149,11.98,Low Fat,0.179,Baking Goods,271.61,OUT001,2003,Medium,Tier 2,Supermarket Type1,2205.45
+ITM0150,4.92,Regular,0.049,Household,184.05,OUT003,2018,Medium,Tier 3,Supermarket Type1,2441.13
+ITM0151,18.6,Low Fat,0.147,Soft Drinks,411.1,OUT004,2008,Medium,Tier 2,Grocery Store,782.17
+ITM0152,12.21,Regular,0.234,Fruits & Vegetables,190.13,OUT002,2007,Large,Tier 3,Supermarket Type1,1171.61
+ITM0153,15.17,Low Fat,0.21,Fruits & Vegetables,167.88,OUT004,2000,Small,Tier 1,Supermarket Type2,2702.92
+ITM0154,14.51,Low Fat,0.115,Fruits & Vegetables,154.32,OUT003,2019,Medium,Tier 2,Supermarket Type1,335.8
+ITM0155,12.59,Low Fat,0.161,Fruits & Vegetables,132.58,OUT005,2006,Small,Tier 1,Supermarket Type2,743.38
+ITM0156,18.6,Low Fat,0.151,Canned,464.98,OUT003,2000,Small,Tier 2,Supermarket Type1,2547.69
+ITM0157,1.0,Low Fat,0.2,Soft Drinks,399.14,OUT002,1999,Small,Tier 3,Grocery Store,3266.92
+ITM0158,6.7,Low Fat,0.205,Health and Hygiene,297.72,OUT002,2015,Small,Tier 1,Grocery Store,662.25
+ITM0159,17.07,Low Fat,0.039,Soft Drinks,191.29,OUT003,2018,Large,Tier 3,Supermarket Type1,2184.83
+ITM0160,12.62,Regular,0.227,Soft Drinks,292.66,OUT003,2013,Medium,Tier 1,Grocery Store,2205.33
+ITM0161,0.77,Regular,0.035,Health and Hygiene,468.87,OUT002,2011,Large,Tier 2,Supermarket Type2,2364.48
+ITM0162,14.93,Low Fat,0.047,Dairy,213.77,OUT005,2014,Large,Tier 2,Supermarket Type2,3085.2
+ITM0163,6.81,Low Fat,0.055,Soft Drinks,106.06,OUT001,2012,Small,Tier 1,Supermarket Type1,2500.02
+ITM0164,12.6,Low Fat,0.083,Household,394.24,OUT003,2018,Small,Tier 2,Grocery Store,1541.86
+ITM0165,15.48,Regular,0.036,Fruits & Vegetables,127.71,OUT005,2007,Medium,Tier 2,Supermarket Type2,2796.41
+ITM0166,7.01,Low Fat,0.04,Frozen Foods,229.27,OUT002,2009,Medium,Tier 2,Grocery Store,2720.78
+ITM0167,17.6,Low Fat,0.141,Frozen Foods,487.42,OUT002,2003,Small,Tier 1,Grocery Store,1728.6
+ITM0168,9.72,Low Fat,0.103,Health and Hygiene,371.44,OUT004,2011,Large,Tier 2,Supermarket Type2,860.31
+ITM0169,19.98,Low Fat,0.191,Snack Foods,158.37,OUT003,2000,Medium,Tier 2,Grocery Store,832.92
+ITM0170,14.97,Regular,0.119,Snack Foods,185.53,OUT004,2003,Medium,Tier 3,Grocery Store,1507.2
+ITM0171,1.43,Regular,0.247,Soft Drinks,425.61,OUT005,2003,Large,Tier 1,Supermarket Type1,3223.07
+ITM0172,9.35,Regular,0.067,Baking Goods,111.8,OUT004,2006,Small,Tier 3,Supermarket Type1,936.24
+ITM0173,1.39,Low Fat,0.121,Frozen Foods,356.03,OUT001,2002,Small,Tier 3,Supermarket Type2,1180.84
+ITM0174,11.27,Low Fat,0.184,Dairy,222.02,OUT003,2001,Medium,Tier 1,Grocery Store,2341.49
+ITM0175,19.03,Regular,0.015,Canned,31.49,OUT001,1999,Large,Tier 2,Supermarket Type1,2969.39
+ITM0176,11.56,Low Fat,0.24,Household,215.75,OUT002,1999,Small,Tier 2,Grocery Store,668.58
+ITM0177,10.78,Regular,0.175,Household,352.03,OUT003,2016,Medium,Tier 1,Supermarket Type2,3109.1
+ITM0178,2.88,Regular,0.134,Snack Foods,132.74,OUT001,2008,Small,Tier 3,Grocery Store,3185.76
+ITM0179,4.06,Low Fat,0.019,Household,180.21,OUT001,2016,Small,Tier 3,Supermarket Type2,2799.53
+ITM0180,15.84,Regular,0.177,Canned,132.31,OUT005,2012,Large,Tier 2,Supermarket Type2,2575.57
+ITM0181,14.43,Regular,0.141,Baking Goods,42.61,OUT002,2010,Large,Tier 1,Supermarket Type1,1729.99
+ITM0182,2.59,Low Fat,0.031,Frozen Foods,43.21,OUT002,2000,Medium,Tier 1,Supermarket Type1,1806.35
+ITM0183,16.82,Regular,0.245,Snack Foods,316.86,OUT001,2004,Large,Tier 1,Grocery Store,2601.37
+ITM0184,4.36,Low Fat,0.02,Snack Foods,241.69,OUT001,2006,Medium,Tier 2,Supermarket Type2,454.52
+ITM0185,18.81,Regular,0.193,Fruits & Vegetables,67.96,OUT001,2008,Medium,Tier 2,Supermarket Type2,1678.77
+ITM0186,3.61,Low Fat,0.249,Soft Drinks,362.82,OUT002,2019,Small,Tier 1,Grocery Store,2704.01
+ITM0187,8.97,Regular,0.096,Fruits & Vegetables,22.79,OUT001,2003,Medium,Tier 1,Supermarket Type2,799.29
+ITM0188,9.44,Low Fat,0.23,Frozen Foods,301.1,OUT001,2014,Medium,Tier 1,Supermarket Type1,2796.93
+ITM0189,7.02,Low Fat,0.169,Canned,96.93,OUT003,2001,Small,Tier 1,Supermarket Type1,951.07
+ITM0190,10.89,Low Fat,0.168,Baking Goods,492.42,OUT003,2009,Small,Tier 2,Supermarket Type2,892.07
+ITM0191,12.14,Regular,0.143,Snack Foods,457.69,OUT004,2009,Large,Tier 2,Supermarket Type2,771.9
+ITM0192,11.77,Low Fat,0.207,Household,367.37,OUT003,2017,Medium,Tier 2,Supermarket Type2,2005.58
+ITM0193,10.07,Low Fat,0.041,Health and Hygiene,286.54,OUT001,2003,Small,Tier 1,Grocery Store,1626.93
+ITM0194,1.31,Low Fat,0.214,Frozen Foods,304.47,OUT001,2016,Small,Tier 3,Grocery Store,1173.93
+ITM0195,5.0,Regular,0.07,Frozen Foods,213.89,OUT002,2011,Large,Tier 3,Supermarket Type1,3151.23
+ITM0196,2.92,Regular,0.148,Health and Hygiene,132.36,OUT003,2012,Large,Tier 1,Supermarket Type2,1679.96
+ITM0197,4.75,Regular,0.074,Fruits & Vegetables,211.55,OUT001,2008,Medium,Tier 3,Supermarket Type2,2406.67
+ITM0198,1.97,Regular,0.212,Fruits & Vegetables,362.52,OUT003,2004,Large,Tier 1,Grocery Store,2050.35
+ITM0199,3.05,Regular,0.197,Baking Goods,264.52,OUT002,2015,Medium,Tier 2,Supermarket Type1,1968.77
+ITM0200,7.07,Low Fat,0.064,Soft Drinks,220.51,OUT002,2009,Large,Tier 3,Grocery Store,2956.78
+ITM0201,1.68,Low Fat,0.234,Baking Goods,306.4,OUT003,2000,Large,Tier 3,Supermarket Type2,2416.05
+ITM0202,7.31,Low Fat,0.17,Household,240.72,OUT005,2012,Large,Tier 3,Supermarket Type2,886.96
+ITM0203,14.22,Regular,0.232,Health and Hygiene,36.49,OUT003,2010,Large,Tier 2,Supermarket Type2,1737.23
+ITM0204,11.52,Regular,0.213,Soft Drinks,294.24,OUT002,2007,Small,Tier 3,Supermarket Type2,1186.16
+ITM0205,2.95,Regular,0.129,Health and Hygiene,58.62,OUT003,2014,Small,Tier 1,Supermarket Type2,622.4
+ITM0206,7.64,Low Fat,0.042,Canned,460.63,OUT005,2014,Small,Tier 2,Grocery Store,2490.91
+ITM0207,2.76,Regular,0.046,Household,414.96,OUT001,1999,Medium,Tier 2,Supermarket Type1,3542.97
+ITM0208,19.75,Regular,0.218,Health and Hygiene,28.38,OUT005,2003,Small,Tier 2,Supermarket Type1,1700.68
+ITM0209,6.61,Low Fat,0.046,Soft Drinks,233.06,OUT003,2016,Medium,Tier 2,Supermarket Type2,477.24
+ITM0210,19.37,Regular,0.059,Health and Hygiene,348.88,OUT004,1999,Small,Tier 3,Grocery Store,2141.89
+ITM0211,18.67,Low Fat,0.156,Canned,264.4,OUT002,2019,Large,Tier 1,Supermarket Type2,671.12
+ITM0212,17.68,Low Fat,0.133,Household,374.96,OUT001,1999,Medium,Tier 3,Supermarket Type1,955.36
+ITM0213,9.6,Regular,0.203,Soft Drinks,104.45,OUT002,2001,Medium,Tier 1,Grocery Store,2483.09
+ITM0214,15.59,Regular,0.167,Health and Hygiene,328.79,OUT005,2004,Large,Tier 2,Grocery Store,2640.8
+ITM0215,18.69,Low Fat,0.123,Soft Drinks,185.38,OUT005,2017,Small,Tier 2,Supermarket Type2,1970.36
+ITM0216,9.45,Low Fat,0.022,Fruits & Vegetables,323.73,OUT004,2016,Medium,Tier 2,Supermarket Type1,1882.19
+ITM0217,17.7,Regular,0.043,Frozen Foods,40.69,OUT002,2017,Medium,Tier 3,Supermarket Type2,684.69
+ITM0218,8.25,Regular,0.228,Snack Foods,176.97,OUT004,2017,Medium,Tier 2,Supermarket Type2,1284.2
+ITM0219,7.37,Regular,0.203,Health and Hygiene,392.96,OUT002,2012,Large,Tier 1,Grocery Store,793.8
+ITM0220,14.74,Low Fat,0.059,Household,67.85,OUT003,2008,Large,Tier 2,Supermarket Type2,2085.4
+ITM0221,10.82,Regular,0.235,Baking Goods,445.4,OUT001,2006,Large,Tier 1,Supermarket Type1,431.56
+ITM0222,1.96,Low Fat,0.098,Baking Goods,430.89,OUT001,2010,Small,Tier 1,Grocery Store,1867.28
+ITM0223,18.19,Regular,0.144,Health and Hygiene,91.04,OUT004,2015,Large,Tier 1,Grocery Store,1337.92
+ITM0224,4.41,Low Fat,0.203,Dairy,51.14,OUT001,2008,Small,Tier 2,Supermarket Type2,2932.5
+ITM0225,4.38,Low Fat,0.084,Snack Foods,123.73,OUT004,2013,Small,Tier 3,Supermarket Type1,3002.4
+ITM0226,9.24,Low Fat,0.178,Household,73.35,OUT003,2015,Medium,Tier 2,Supermarket Type1,584.36
+ITM0227,1.4,Low Fat,0.12,Fruits & Vegetables,369.3,OUT002,2016,Large,Tier 3,Supermarket Type1,1083.14
+ITM0228,18.09,Regular,0.03,Health and Hygiene,294.9,OUT001,2008,Small,Tier 2,Supermarket Type2,2240.59
+ITM0229,17.21,Regular,0.098,Canned,407.54,OUT004,2011,Small,Tier 2,Supermarket Type1,1223.0
+ITM0230,8.04,Low Fat,0.057,Soft Drinks,379.61,OUT002,2012,Large,Tier 3,Grocery Store,926.8
+ITM0231,6.66,Regular,0.057,Soft Drinks,376.8,OUT005,2001,Medium,Tier 2,Supermarket Type2,2117.63
+ITM0232,11.6,Regular,0.042,Dairy,489.55,OUT004,2012,Small,Tier 2,Grocery Store,628.04
+ITM0233,5.19,Low Fat,0.118,Soft Drinks,94.07,OUT004,2009,Large,Tier 1,Supermarket Type2,3074.29
+ITM0234,11.58,Regular,0.225,Canned,243.66,OUT002,2014,Medium,Tier 2,Supermarket Type2,2030.82
+ITM0235,13.1,Regular,0.214,Health and Hygiene,234.6,OUT001,2015,Small,Tier 1,Supermarket Type1,2864.71
+ITM0236,3.23,Low Fat,0.117,Snack Foods,433.07,OUT001,2005,Small,Tier 2,Supermarket Type1,2327.12
+ITM0237,18.2,Low Fat,0.236,Dairy,303.95,OUT005,2003,Large,Tier 2,Supermarket Type2,3170.63
+ITM0238,11.45,Regular,0.115,Baking Goods,254.38,OUT003,2001,Large,Tier 1,Supermarket Type1,909.28
+ITM0239,13.41,Low Fat,0.108,Soft Drinks,196.47,OUT001,2020,Small,Tier 3,Grocery Store,2213.87
+ITM0240,14.1,Low Fat,0.153,Baking Goods,284.06,OUT004,2006,Medium,Tier 3,Grocery Store,2054.24
+ITM0241,8.96,Low Fat,0.206,Soft Drinks,493.84,OUT001,2000,Small,Tier 2,Supermarket Type2,1490.96
+ITM0242,14.45,Low Fat,0.069,Canned,302.25,OUT005,2012,Medium,Tier 1,Grocery Store,2520.41
+ITM0243,15.47,Low Fat,0.153,Baking Goods,212.77,OUT001,2006,Medium,Tier 1,Grocery Store,2211.7
+ITM0244,19.57,Low Fat,0.081,Snack Foods,431.97,OUT001,2007,Medium,Tier 1,Supermarket Type2,1434.16
+ITM0245,9.96,Low Fat,0.209,Canned,477.68,OUT004,2018,Medium,Tier 1,Supermarket Type2,2137.34
+ITM0246,3.11,Regular,0.234,Health and Hygiene,60.63,OUT002,2004,Medium,Tier 2,Supermarket Type2,2358.4
+ITM0247,1.59,Low Fat,0.154,Frozen Foods,383.38,OUT005,2019,Small,Tier 3,Grocery Store,1885.52
+ITM0248,10.0,Regular,0.058,Canned,431.85,OUT001,2015,Medium,Tier 3,Supermarket Type1,341.09
+ITM0249,5.66,Regular,0.12,Frozen Foods,37.08,OUT005,1999,Large,Tier 3,Supermarket Type2,768.11
+ITM0250,8.15,Regular,0.146,Snack Foods,371.34,OUT003,2017,Large,Tier 2,Supermarket Type1,1978.28
+ITM0251,1.46,Low Fat,0.198,Snack Foods,235.39,OUT002,2005,Large,Tier 2,Grocery Store,3108.14
+ITM0252,6.05,Low Fat,0.224,Household,402.84,OUT004,2017,Small,Tier 2,Supermarket Type1,1284.82
+ITM0253,19.31,Low Fat,0.031,Frozen Foods,361.97,OUT004,2010,Large,Tier 2,Supermarket Type2,3224.93
+ITM0254,9.19,Low Fat,0.045,Household,141.49,OUT003,2016,Small,Tier 2,Supermarket Type2,2154.1
+ITM0255,14.08,Regular,0.177,Household,290.01,OUT004,2019,Small,Tier 3,Grocery Store,1140.6
+ITM0256,8.17,Regular,0.189,Frozen Foods,318.31,OUT005,2019,Medium,Tier 3,Grocery Store,922.49
+ITM0257,16.46,Low Fat,0.15,Health and Hygiene,220.66,OUT002,2001,Small,Tier 2,Supermarket Type2,1443.02
+ITM0258,6.37,Low Fat,0.134,Snack Foods,311.35,OUT001,2006,Large,Tier 1,Grocery Store,706.06
+ITM0259,13.85,Regular,0.231,Canned,173.39,OUT004,2009,Small,Tier 3,Supermarket Type1,1064.05
+ITM0260,8.44,Regular,0.15,Canned,457.46,OUT005,2007,Medium,Tier 3,Supermarket Type1,1132.31
+ITM0261,15.45,Regular,0.101,Baking Goods,36.92,OUT005,2002,Large,Tier 2,Supermarket Type1,1688.1
+ITM0262,10.16,Low Fat,0.066,Household,56.49,OUT001,2014,Large,Tier 1,Grocery Store,981.53
+ITM0263,9.9,Low Fat,0.019,Health and Hygiene,376.36,OUT004,2002,Medium,Tier 1,Supermarket Type1,1569.18
+ITM0264,7.97,Regular,0.175,Frozen Foods,108.13,OUT005,2012,Small,Tier 2,Grocery Store,2016.02
+ITM0265,5.72,Regular,0.148,Dairy,216.37,OUT004,2005,Medium,Tier 2,Supermarket Type2,2596.0
+ITM0266,14.49,Regular,0.14,Frozen Foods,368.44,OUT004,2012,Small,Tier 2,Grocery Store,3176.54
+ITM0267,10.61,Low Fat,0.112,Soft Drinks,344.76,OUT003,2013,Large,Tier 1,Supermarket Type1,2158.26
+ITM0268,13.61,Regular,0.119,Fruits & Vegetables,62.63,OUT001,2006,Medium,Tier 3,Grocery Store,2106.87
+ITM0269,19.41,Regular,0.086,Snack Foods,343.67,OUT001,2001,Medium,Tier 3,Supermarket Type1,2425.36
+ITM0270,9.22,Low Fat,0.04,Soft Drinks,100.8,OUT001,2017,Medium,Tier 3,Supermarket Type1,676.97
+ITM0271,3.24,Regular,0.085,Household,99.95,OUT004,2020,Large,Tier 2,Grocery Store,2322.78
+ITM0272,16.66,Regular,0.078,Snack Foods,277.6,OUT002,2018,Medium,Tier 3,Supermarket Type1,3045.68
+ITM0273,9.01,Low Fat,0.079,Soft Drinks,437.75,OUT003,2015,Medium,Tier 3,Supermarket Type1,2593.8
+ITM0274,7.2,Low Fat,0.118,Soft Drinks,131.93,OUT005,2000,Large,Tier 3,Supermarket Type1,2312.94
+ITM0275,12.01,Low Fat,0.068,Snack Foods,125.08,OUT005,2012,Medium,Tier 1,Grocery Store,268.14
+ITM0276,16.19,Low Fat,0.045,Canned,400.13,OUT001,2002,Large,Tier 3,Supermarket Type2,3104.24
+ITM0277,18.61,Regular,0.199,Fruits & Vegetables,449.84,OUT003,1999,Small,Tier 3,Supermarket Type2,600.14
+ITM0278,18.09,Low Fat,0.162,Frozen Foods,152.82,OUT005,2005,Large,Tier 2,Supermarket Type2,362.21
+ITM0279,6.65,Regular,0.115,Fruits & Vegetables,153.44,OUT005,2017,Medium,Tier 2,Supermarket Type1,2381.71
+ITM0280,15.44,Regular,0.121,Baking Goods,135.49,OUT004,2009,Medium,Tier 2,Grocery Store,716.15
+ITM0281,17.1,Low Fat,0.217,Dairy,284.95,OUT002,2011,Large,Tier 3,Supermarket Type1,2544.13
+ITM0282,6.75,Low Fat,0.068,Frozen Foods,358.41,OUT005,1999,Small,Tier 3,Supermarket Type2,1398.49
+ITM0283,19.48,Regular,0.235,Health and Hygiene,152.51,OUT004,2012,Medium,Tier 2,Grocery Store,1513.45
+ITM0284,10.17,Low Fat,0.237,Fruits & Vegetables,386.67,OUT001,2004,Large,Tier 1,Supermarket Type2,2474.22
+ITM0285,12.02,Low Fat,0.033,Snack Foods,76.99,OUT003,2018,Small,Tier 3,Supermarket Type2,2704.76
+ITM0286,15.06,Regular,0.094,Frozen Foods,264.91,OUT002,2012,Large,Tier 1,Supermarket Type2,912.19
+ITM0287,19.87,Low Fat,0.151,Frozen Foods,470.42,OUT001,2009,Large,Tier 2,Grocery Store,2095.95
+ITM0288,14.28,Regular,0.059,Health and Hygiene,472.68,OUT003,2015,Small,Tier 2,Supermarket Type1,1158.31
+ITM0289,14.58,Regular,0.123,Household,197.34,OUT001,2001,Large,Tier 1,Supermarket Type1,2819.18
+ITM0290,14.98,Low Fat,0.178,Canned,376.34,OUT001,1999,Large,Tier 2,Grocery Store,3100.48
+ITM0291,6.41,Regular,0.187,Soft Drinks,82.66,OUT005,2010,Medium,Tier 1,Supermarket Type2,509.42
+ITM0292,13.51,Regular,0.043,Fruits & Vegetables,305.33,OUT004,2007,Medium,Tier 3,Supermarket Type2,2098.79
+ITM0293,4.91,Regular,0.098,Household,352.91,OUT001,2011,Medium,Tier 2,Supermarket Type1,1084.31
+ITM0294,11.51,Regular,0.083,Household,20.53,OUT001,2008,Small,Tier 1,Supermarket Type2,2680.28
+ITM0295,17.36,Regular,0.114,Baking Goods,431.14,OUT001,2001,Small,Tier 1,Grocery Store,3036.53
+ITM0296,9.18,Regular,0.213,Dairy,144.91,OUT001,2007,Large,Tier 1,Supermarket Type2,2942.36
+ITM0297,15.15,Regular,0.033,Canned,51.93,OUT002,2013,Medium,Tier 1,Supermarket Type2,1648.46
+ITM0298,7.89,Regular,0.176,Dairy,167.49,OUT002,2016,Small,Tier 1,Grocery Store,2753.55
+ITM0299,9.43,Low Fat,0.195,Soft Drinks,221.3,OUT004,2017,Small,Tier 1,Supermarket Type2,1234.16
+ITM0300,6.18,Regular,0.124,Snack Foods,126.47,OUT002,2017,Large,Tier 1,Grocery Store,2055.0
+ITM0301,4.22,Regular,0.053,Snack Foods,245.95,OUT001,2004,Small,Tier 3,Supermarket Type1,1927.89
+ITM0302,15.32,Low Fat,0.184,Fruits & Vegetables,179.37,OUT001,2008,Medium,Tier 3,Supermarket Type2,941.81
+ITM0303,16.07,Regular,0.163,Baking Goods,471.67,OUT002,2005,Medium,Tier 3,Grocery Store,797.42
+ITM0304,11.9,Regular,0.066,Dairy,246.03,OUT001,2015,Medium,Tier 2,Grocery Store,2689.95
+ITM0305,2.45,Regular,0.247,Health and Hygiene,333.92,OUT005,2006,Large,Tier 1,Supermarket Type2,1644.36
+ITM0306,9.15,Regular,0.099,Soft Drinks,279.99,OUT002,2018,Large,Tier 3,Supermarket Type2,1771.78
+ITM0307,5.27,Regular,0.145,Fruits & Vegetables,285.94,OUT005,2004,Large,Tier 3,Grocery Store,1844.09
+ITM0308,5.12,Regular,0.197,Frozen Foods,166.94,OUT001,2018,Large,Tier 1,Grocery Store,1044.68
+ITM0309,3.07,Low Fat,0.188,Canned,187.36,OUT003,2001,Medium,Tier 1,Supermarket Type1,2866.68
+ITM0310,18.27,Regular,0.15,Fruits & Vegetables,21.48,OUT001,2001,Small,Tier 3,Supermarket Type2,1636.48
+ITM0311,2.44,Regular,0.178,Canned,207.4,OUT003,2015,Small,Tier 2,Supermarket Type1,2855.78
+ITM0312,11.43,Low Fat,0.026,Snack Foods,499.73,OUT004,2008,Small,Tier 2,Grocery Store,872.24
+ITM0313,15.92,Low Fat,0.196,Household,458.81,OUT004,2017,Large,Tier 2,Supermarket Type1,3037.97
+ITM0314,2.45,Low Fat,0.046,Dairy,306.13,OUT004,2016,Small,Tier 1,Grocery Store,3106.69
+ITM0315,6.59,Regular,0.17,Baking Goods,263.45,OUT005,2016,Medium,Tier 3,Grocery Store,2062.45
+ITM0316,8.84,Regular,0.099,Health and Hygiene,252.66,OUT001,2019,Small,Tier 3,Supermarket Type1,2510.07
+ITM0317,19.63,Low Fat,0.222,Fruits & Vegetables,31.83,OUT001,2010,Small,Tier 3,Grocery Store,2394.28
+ITM0318,7.36,Low Fat,0.119,Soft Drinks,265.32,OUT002,2010,Small,Tier 1,Supermarket Type1,749.58
+ITM0319,0.77,Low Fat,0.201,Health and Hygiene,482.44,OUT003,2012,Large,Tier 2,Supermarket Type2,2086.0
+ITM0320,6.82,Regular,0.017,Health and Hygiene,473.62,OUT005,2012,Medium,Tier 3,Supermarket Type2,3396.65
+ITM0321,7.42,Regular,0.01,Soft Drinks,310.55,OUT002,2012,Medium,Tier 1,Grocery Store,3010.32
+ITM0322,13.08,Regular,0.234,Fruits & Vegetables,452.59,OUT003,2004,Small,Tier 2,Supermarket Type1,3491.76
+ITM0323,6.79,Low Fat,0.021,Dairy,135.46,OUT003,1999,Large,Tier 1,Supermarket Type2,3029.43
+ITM0324,5.3,Low Fat,0.135,Frozen Foods,259.23,OUT002,2002,Large,Tier 3,Supermarket Type1,1646.38
+ITM0325,3.36,Regular,0.176,Snack Foods,43.52,OUT001,2009,Medium,Tier 2,Grocery Store,922.96
+ITM0326,11.83,Low Fat,0.076,Household,87.93,OUT003,2013,Large,Tier 1,Supermarket Type2,2066.59
+ITM0327,8.92,Low Fat,0.052,Frozen Foods,368.26,OUT003,2008,Small,Tier 3,Supermarket Type1,3096.66
+ITM0328,13.46,Regular,0.197,Household,174.99,OUT004,2010,Medium,Tier 2,Supermarket Type2,756.09
+ITM0329,19.04,Regular,0.101,Frozen Foods,238.74,OUT001,2000,Medium,Tier 1,Supermarket Type2,3046.87
+ITM0330,16.06,Regular,0.168,Household,394.75,OUT002,2020,Large,Tier 3,Supermarket Type2,1945.06
+ITM0331,8.55,Regular,0.077,Soft Drinks,116.48,OUT002,2008,Small,Tier 3,Supermarket Type2,327.28
+ITM0332,2.65,Regular,0.08,Dairy,411.44,OUT004,2002,Medium,Tier 2,Supermarket Type2,1714.25
+ITM0333,5.44,Regular,0.191,Health and Hygiene,106.84,OUT003,2020,Medium,Tier 2,Supermarket Type1,372.3
+ITM0334,18.85,Low Fat,0.038,Snack Foods,145.37,OUT003,2008,Medium,Tier 3,Supermarket Type2,1415.53
+ITM0335,4.63,Low Fat,0.089,Dairy,355.66,OUT004,2011,Small,Tier 3,Supermarket Type2,3170.17
+ITM0336,16.12,Regular,0.078,Baking Goods,347.12,OUT001,2011,Medium,Tier 2,Supermarket Type2,1747.94
+ITM0337,1.22,Low Fat,0.065,Baking Goods,137.24,OUT005,2003,Large,Tier 1,Supermarket Type2,3087.14
+ITM0338,9.75,Low Fat,0.082,Baking Goods,300.03,OUT003,1999,Medium,Tier 1,Supermarket Type2,1116.02
+ITM0339,6.74,Low Fat,0.171,Frozen Foods,40.43,OUT003,2012,Medium,Tier 2,Supermarket Type2,1233.13
+ITM0340,13.37,Low Fat,0.066,Fruits & Vegetables,342.71,OUT003,2016,Small,Tier 2,Supermarket Type1,904.51
+ITM0341,11.94,Low Fat,0.151,Household,429.33,OUT002,2014,Large,Tier 3,Grocery Store,2404.85
+ITM0342,19.75,Regular,0.152,Canned,32.16,OUT004,2018,Small,Tier 1,Supermarket Type2,2833.79
+ITM0343,0.93,Regular,0.078,Fruits & Vegetables,246.63,OUT005,2001,Large,Tier 2,Supermarket Type1,2225.92
+ITM0344,5.61,Low Fat,0.07,Frozen Foods,219.17,OUT005,2006,Medium,Tier 3,Grocery Store,1396.57
+ITM0345,3.38,Low Fat,0.143,Fruits & Vegetables,144.96,OUT002,2001,Large,Tier 2,Grocery Store,500.45
+ITM0346,8.56,Regular,0.127,Frozen Foods,392.64,OUT001,2012,Large,Tier 1,Grocery Store,1056.47
+ITM0347,12.83,Low Fat,0.014,Snack Foods,237.54,OUT003,2011,Small,Tier 2,Supermarket Type1,1874.21
+ITM0348,13.78,Low Fat,0.041,Canned,42.02,OUT003,2018,Small,Tier 1,Grocery Store,678.36
+ITM0349,1.28,Low Fat,0.127,Snack Foods,445.6,OUT004,2012,Small,Tier 3,Supermarket Type2,2735.33
+ITM0350,6.26,Low Fat,0.098,Frozen Foods,465.53,OUT002,2011,Large,Tier 3,Supermarket Type2,1321.3
+ITM0351,14.19,Regular,0.026,Canned,362.22,OUT003,2000,Small,Tier 1,Supermarket Type1,2685.41
+ITM0352,19.95,Low Fat,0.228,Household,440.23,OUT003,2015,Large,Tier 3,Supermarket Type1,1354.69
+ITM0353,11.04,Regular,0.089,Dairy,409.7,OUT005,2020,Large,Tier 3,Supermarket Type2,3144.47
+ITM0354,2.37,Low Fat,0.039,Health and Hygiene,422.44,OUT001,2003,Medium,Tier 3,Supermarket Type1,925.87
+ITM0355,11.65,Regular,0.177,Dairy,154.31,OUT005,2019,Small,Tier 3,Grocery Store,1554.8
+ITM0356,18.29,Low Fat,0.199,Dairy,426.43,OUT004,2012,Small,Tier 2,Supermarket Type2,3354.73
+ITM0357,7.57,Low Fat,0.092,Household,205.73,OUT002,2003,Medium,Tier 1,Supermarket Type1,1991.64
+ITM0358,17.37,Regular,0.083,Soft Drinks,305.22,OUT005,2001,Small,Tier 1,Supermarket Type1,1866.02
+ITM0359,9.41,Regular,0.191,Baking Goods,291.16,OUT004,2014,Small,Tier 3,Grocery Store,3079.76
+ITM0360,2.53,Low Fat,0.152,Frozen Foods,37.58,OUT001,2005,Medium,Tier 1,Grocery Store,2777.77
+ITM0361,3.73,Low Fat,0.153,Snack Foods,223.37,OUT005,2008,Small,Tier 3,Supermarket Type1,2833.25
+ITM0362,17.13,Regular,0.091,Canned,87.36,OUT004,2020,Medium,Tier 1,Grocery Store,2209.56
+ITM0363,15.41,Low Fat,0.031,Health and Hygiene,257.92,OUT005,2020,Small,Tier 3,Supermarket Type1,798.66
+ITM0364,8.25,Regular,0.066,Health and Hygiene,489.69,OUT001,2018,Medium,Tier 2,Supermarket Type1,2200.28
+ITM0365,15.8,Low Fat,0.216,Health and Hygiene,278.41,OUT005,2009,Small,Tier 1,Supermarket Type1,1709.88
+ITM0366,3.15,Regular,0.037,Canned,99.66,OUT002,2015,Medium,Tier 1,Supermarket Type2,685.77
+ITM0367,18.43,Regular,0.13,Household,332.67,OUT005,2007,Large,Tier 1,Supermarket Type2,1370.08
+ITM0368,16.89,Low Fat,0.217,Household,94.58,OUT002,2000,Medium,Tier 1,Supermarket Type2,762.14
+ITM0369,18.33,Low Fat,0.172,Baking Goods,432.57,OUT003,2013,Large,Tier 1,Grocery Store,1861.73
+ITM0370,13.72,Low Fat,0.047,Health and Hygiene,217.25,OUT001,2008,Medium,Tier 1,Grocery Store,1596.77
+ITM0371,6.68,Regular,0.164,Health and Hygiene,284.44,OUT003,2014,Medium,Tier 1,Supermarket Type2,1767.97
+ITM0372,17.32,Regular,0.052,Baking Goods,186.62,OUT005,1999,Medium,Tier 2,Supermarket Type2,868.21
+ITM0373,13.67,Low Fat,0.057,Frozen Foods,424.38,OUT003,2013,Large,Tier 1,Grocery Store,1303.92
+ITM0374,12.17,Low Fat,0.065,Canned,64.9,OUT001,2001,Large,Tier 1,Supermarket Type2,1341.61
+ITM0375,16.66,Regular,0.153,Baking Goods,109.61,OUT002,2013,Medium,Tier 1,Supermarket Type2,1737.54
+ITM0376,5.66,Regular,0.127,Baking Goods,217.34,OUT003,2006,Medium,Tier 1,Grocery Store,2523.44
+ITM0377,12.66,Low Fat,0.236,Household,206.73,OUT002,2006,Small,Tier 3,Supermarket Type2,1136.16
+ITM0378,7.72,Low Fat,0.154,Canned,165.39,OUT003,2016,Medium,Tier 2,Supermarket Type2,3113.11
+ITM0379,5.8,Low Fat,0.101,Soft Drinks,298.71,OUT002,2009,Large,Tier 2,Grocery Store,2726.89
+ITM0380,6.83,Regular,0.091,Frozen Foods,211.93,OUT005,2006,Small,Tier 1,Supermarket Type1,1047.46
+ITM0381,15.34,Regular,0.021,Household,284.53,OUT005,2020,Medium,Tier 2,Grocery Store,2831.71
+ITM0382,17.29,Low Fat,0.113,Canned,204.91,OUT004,2004,Large,Tier 1,Grocery Store,2120.43
+ITM0383,17.5,Low Fat,0.157,Soft Drinks,271.85,OUT005,1999,Medium,Tier 1,Grocery Store,2314.78
+ITM0384,1.93,Regular,0.187,Fruits & Vegetables,171.15,OUT002,2017,Small,Tier 2,Supermarket Type2,2473.52
+ITM0385,6.33,Low Fat,0.054,Baking Goods,256.65,OUT004,2003,Small,Tier 1,Supermarket Type2,3034.55
+ITM0386,4.76,Regular,0.114,Dairy,26.32,OUT005,2003,Medium,Tier 1,Grocery Store,1668.21
+ITM0387,1.53,Regular,0.233,Soft Drinks,197.45,OUT003,2005,Small,Tier 2,Supermarket Type2,790.66
+ITM0388,14.18,Low Fat,0.142,Baking Goods,208.86,OUT001,2008,Large,Tier 2,Supermarket Type1,1537.1
+ITM0389,14.28,Regular,0.173,Household,249.37,OUT005,2017,Small,Tier 3,Supermarket Type2,788.61
+ITM0390,6.53,Low Fat,0.242,Household,257.32,OUT004,2016,Large,Tier 1,Supermarket Type2,517.63
+ITM0391,15.68,Low Fat,0.156,Fruits & Vegetables,207.39,OUT005,2004,Small,Tier 2,Grocery Store,699.46
+ITM0392,6.24,Low Fat,0.074,Snack Foods,281.87,OUT003,2013,Medium,Tier 1,Supermarket Type2,1826.79
+ITM0393,3.37,Low Fat,0.05,Frozen Foods,59.95,OUT003,2015,Large,Tier 1,Grocery Store,470.67
+ITM0394,10.2,Regular,0.187,Baking Goods,309.87,OUT001,2019,Small,Tier 1,Grocery Store,1055.4
+ITM0395,12.9,Regular,0.18,Fruits & Vegetables,95.55,OUT003,2016,Small,Tier 1,Supermarket Type1,3017.96
+ITM0396,2.06,Low Fat,0.076,Baking Goods,300.79,OUT004,2009,Large,Tier 1,Supermarket Type1,1174.03
+ITM0397,9.53,Low Fat,0.131,Fruits & Vegetables,195.99,OUT005,2005,Medium,Tier 3,Supermarket Type1,3099.92
+ITM0398,17.3,Regular,0.21,Dairy,68.18,OUT003,2015,Large,Tier 1,Grocery Store,1291.76
+ITM0399,4.38,Regular,0.104,Fruits & Vegetables,266.92,OUT002,2003,Large,Tier 2,Grocery Store,1700.88
+ITM0400,5.16,Regular,0.132,Dairy,117.95,OUT004,2012,Small,Tier 2,Grocery Store,2878.09
+ITM0401,15.14,Regular,0.118,Snack Foods,477.62,OUT003,2016,Large,Tier 2,Grocery Store,3022.79
+ITM0402,12.4,Regular,0.233,Snack Foods,427.96,OUT005,1999,Large,Tier 1,Supermarket Type1,894.54
+ITM0403,19.15,Low Fat,0.128,Snack Foods,304.17,OUT001,2014,Large,Tier 3,Supermarket Type1,3170.21
+ITM0404,3.23,Regular,0.012,Baking Goods,385.36,OUT002,2003,Medium,Tier 2,Grocery Store,3106.03
+ITM0405,15.0,Regular,0.241,Dairy,402.5,OUT004,2003,Large,Tier 3,Supermarket Type1,1528.05
+ITM0406,0.59,Regular,0.211,Dairy,359.37,OUT004,2016,Medium,Tier 3,Grocery Store,1457.74
+ITM0407,5.42,Low Fat,0.144,Frozen Foods,72.17,OUT002,2011,Large,Tier 1,Supermarket Type2,781.68
+ITM0408,9.5,Regular,0.016,Dairy,85.82,OUT005,2001,Medium,Tier 2,Grocery Store,589.14
+ITM0409,4.67,Low Fat,0.116,Dairy,388.15,OUT001,2002,Medium,Tier 1,Supermarket Type2,1314.58
+ITM0410,18.54,Regular,0.163,Snack Foods,379.48,OUT003,2012,Large,Tier 1,Supermarket Type1,2170.08
+ITM0411,15.33,Low Fat,0.153,Soft Drinks,275.97,OUT004,2013,Small,Tier 3,Supermarket Type2,3155.99
+ITM0412,8.11,Low Fat,0.066,Snack Foods,454.62,OUT002,2010,Large,Tier 1,Supermarket Type2,1361.79
+ITM0413,3.25,Low Fat,0.185,Baking Goods,282.85,OUT001,2013,Large,Tier 3,Supermarket Type2,1933.88
+ITM0414,13.24,Low Fat,0.187,Household,91.97,OUT002,2014,Small,Tier 2,Grocery Store,2746.41
+ITM0415,5.11,Regular,0.051,Dairy,384.82,OUT004,2008,Medium,Tier 1,Supermarket Type2,3068.35
+ITM0416,5.05,Low Fat,0.028,Fruits & Vegetables,224.96,OUT005,2009,Medium,Tier 2,Supermarket Type1,1256.21
+ITM0417,1.41,Low Fat,0.031,Canned,284.17,OUT001,2004,Small,Tier 1,Supermarket Type2,997.08
+ITM0418,1.86,Regular,0.189,Soft Drinks,271.81,OUT003,2011,Medium,Tier 3,Supermarket Type2,3082.8
+ITM0419,13.34,Regular,0.093,Snack Foods,117.68,OUT005,2001,Large,Tier 3,Supermarket Type1,375.77
+ITM0420,7.09,Low Fat,0.13,Household,479.04,OUT005,2018,Small,Tier 3,Supermarket Type2,2423.73
+ITM0421,10.91,Regular,0.192,Household,32.79,OUT001,2019,Small,Tier 3,Supermarket Type2,2171.44
+ITM0422,14.83,Regular,0.145,Dairy,423.42,OUT001,2016,Small,Tier 3,Supermarket Type1,2059.73
+ITM0423,12.6,Low Fat,0.026,Household,133.11,OUT003,2010,Small,Tier 3,Supermarket Type2,2736.19
+ITM0424,11.87,Regular,0.235,Health and Hygiene,410.21,OUT003,2000,Medium,Tier 3,Supermarket Type1,1613.35
+ITM0425,13.28,Low Fat,0.177,Health and Hygiene,247.66,OUT002,2007,Small,Tier 3,Grocery Store,669.04
+ITM0426,6.23,Regular,0.088,Household,23.47,OUT001,2005,Small,Tier 1,Supermarket Type2,1342.58
+ITM0427,5.97,Low Fat,0.181,Health and Hygiene,288.22,OUT005,2007,Small,Tier 1,Supermarket Type2,2762.47
+ITM0428,18.45,Low Fat,0.086,Household,203.16,OUT001,2019,Large,Tier 1,Supermarket Type2,329.7
+ITM0429,16.98,Low Fat,0.026,Baking Goods,91.49,OUT003,2012,Medium,Tier 1,Supermarket Type1,1441.17
+ITM0430,17.63,Low Fat,0.025,Baking Goods,389.87,OUT003,2004,Medium,Tier 2,Supermarket Type1,795.24
+ITM0431,16.2,Low Fat,0.027,Frozen Foods,368.66,OUT005,2012,Medium,Tier 1,Supermarket Type1,2713.98
+ITM0432,2.35,Regular,0.194,Fruits & Vegetables,106.67,OUT001,2000,Large,Tier 1,Grocery Store,1024.41
+ITM0433,17.82,Low Fat,0.013,Health and Hygiene,384.43,OUT005,2005,Small,Tier 2,Supermarket Type2,2635.35
+ITM0434,10.69,Regular,0.061,Fruits & Vegetables,133.2,OUT005,1999,Medium,Tier 2,Supermarket Type2,1634.6
+ITM0435,3.09,Low Fat,0.02,Baking Goods,342.82,OUT001,2013,Medium,Tier 2,Supermarket Type1,1071.94
+ITM0436,0.8,Regular,0.043,Dairy,85.99,OUT001,2009,Small,Tier 1,Supermarket Type1,1290.06
+ITM0437,5.9,Low Fat,0.118,Snack Foods,32.57,OUT002,2002,Large,Tier 3,Grocery Store,1278.55
+ITM0438,0.64,Regular,0.217,Baking Goods,393.42,OUT005,2002,Large,Tier 2,Supermarket Type1,2789.31
+ITM0439,19.99,Regular,0.075,Baking Goods,156.74,OUT002,2016,Medium,Tier 2,Supermarket Type2,3046.64
+ITM0440,18.01,Low Fat,0.016,Dairy,486.86,OUT003,2014,Large,Tier 1,Supermarket Type1,795.99
+ITM0441,17.7,Regular,0.205,Soft Drinks,237.65,OUT001,2017,Large,Tier 1,Grocery Store,2347.45
+ITM0442,4.0,Low Fat,0.06,Household,33.12,OUT003,2020,Large,Tier 3,Grocery Store,1766.08
+ITM0443,19.47,Regular,0.178,Household,151.67,OUT001,2015,Medium,Tier 2,Supermarket Type2,3030.19
+ITM0444,12.3,Regular,0.104,Soft Drinks,161.15,OUT003,2020,Small,Tier 2,Supermarket Type2,2735.6
+ITM0445,2.55,Regular,0.203,Snack Foods,52.9,OUT002,2016,Small,Tier 3,Supermarket Type1,2545.65
+ITM0446,5.76,Regular,0.233,Household,98.02,OUT003,2014,Large,Tier 1,Grocery Store,1046.71
+ITM0447,2.58,Low Fat,0.125,Baking Goods,422.97,OUT003,2008,Medium,Tier 3,Supermarket Type1,2564.91
+ITM0448,6.53,Low Fat,0.168,Fruits & Vegetables,178.62,OUT001,2019,Small,Tier 3,Supermarket Type2,577.04
+ITM0449,3.57,Regular,0.085,Dairy,177.03,OUT001,2016,Small,Tier 2,Grocery Store,2204.38
+ITM0450,0.83,Regular,0.241,Health and Hygiene,373.77,OUT001,2016,Large,Tier 2,Supermarket Type1,2992.07
+ITM0451,15.79,Low Fat,0.159,Frozen Foods,33.67,OUT001,2014,Small,Tier 3,Supermarket Type2,1616.43
+ITM0452,6.3,Regular,0.201,Canned,107.09,OUT003,2002,Medium,Tier 3,Supermarket Type2,969.98
+ITM0453,19.46,Regular,0.085,Household,46.2,OUT003,2018,Large,Tier 1,Supermarket Type2,336.43
+ITM0454,3.49,Regular,0.045,Household,462.64,OUT002,2008,Medium,Tier 3,Supermarket Type1,2053.5
+ITM0455,14.73,Low Fat,0.07,Canned,224.62,OUT005,2001,Large,Tier 3,Grocery Store,704.35
+ITM0456,16.95,Regular,0.047,Household,389.5,OUT002,2003,Medium,Tier 1,Grocery Store,1172.63
+ITM0457,7.94,Regular,0.145,Household,132.2,OUT005,1999,Large,Tier 2,Supermarket Type1,2302.91
+ITM0458,19.0,Regular,0.207,Snack Foods,23.14,OUT002,2007,Large,Tier 2,Supermarket Type1,1869.21
+ITM0459,2.42,Regular,0.049,Snack Foods,324.95,OUT002,2020,Small,Tier 2,Grocery Store,1834.24
+ITM0460,17.6,Regular,0.145,Household,21.27,OUT005,2015,Medium,Tier 1,Supermarket Type1,2803.66
+ITM0461,11.48,Regular,0.19,Canned,326.05,OUT002,2007,Small,Tier 3,Supermarket Type1,1664.18
+ITM0462,15.96,Low Fat,0.16,Snack Foods,183.42,OUT002,2012,Medium,Tier 3,Grocery Store,2550.6
+ITM0463,14.28,Low Fat,0.085,Fruits & Vegetables,140.55,OUT003,2006,Medium,Tier 1,Grocery Store,449.52
+ITM0464,11.14,Low Fat,0.24,Canned,496.23,OUT002,2018,Medium,Tier 3,Grocery Store,1038.37
+ITM0465,16.99,Low Fat,0.113,Frozen Foods,457.96,OUT001,2005,Medium,Tier 1,Supermarket Type2,3544.11
+ITM0466,9.89,Regular,0.18,Health and Hygiene,70.24,OUT004,2001,Large,Tier 1,Grocery Store,2479.92
+ITM0467,16.21,Regular,0.117,Household,342.02,OUT003,2015,Large,Tier 1,Supermarket Type1,2728.14
+ITM0468,3.51,Regular,0.054,Frozen Foods,482.9,OUT001,2012,Large,Tier 3,Supermarket Type2,1259.87
+ITM0469,17.66,Low Fat,0.07,Canned,234.15,OUT005,2006,Large,Tier 3,Supermarket Type2,535.26
+ITM0470,19.61,Low Fat,0.139,Health and Hygiene,486.05,OUT001,2003,Large,Tier 3,Supermarket Type1,2457.0
+ITM0471,6.43,Regular,0.24,Canned,164.28,OUT005,2012,Small,Tier 3,Grocery Store,1692.26
+ITM0472,3.56,Low Fat,0.174,Baking Goods,456.01,OUT001,2019,Medium,Tier 1,Supermarket Type1,1082.01
+ITM0473,9.64,Regular,0.099,Fruits & Vegetables,406.28,OUT004,2019,Medium,Tier 3,Grocery Store,2839.11
+ITM0474,10.73,Regular,0.014,Fruits & Vegetables,157.76,OUT002,1999,Small,Tier 1,Supermarket Type2,1580.27
+ITM0475,5.68,Regular,0.126,Health and Hygiene,484.35,OUT005,2010,Medium,Tier 3,Supermarket Type2,628.1
+ITM0476,16.21,Regular,0.158,Household,285.91,OUT003,2004,Large,Tier 3,Grocery Store,619.02
+ITM0477,3.6,Regular,0.136,Frozen Foods,164.78,OUT003,2019,Large,Tier 3,Supermarket Type2,1934.72
+ITM0478,2.16,Low Fat,0.02,Soft Drinks,144.35,OUT004,1999,Small,Tier 1,Grocery Store,580.57
+ITM0479,14.48,Low Fat,0.197,Canned,113.71,OUT001,2006,Large,Tier 1,Grocery Store,1563.04
+ITM0480,14.28,Regular,0.129,Canned,24.5,OUT002,2002,Large,Tier 3,Supermarket Type2,2576.21
+ITM0481,5.39,Regular,0.025,Health and Hygiene,437.19,OUT003,2010,Small,Tier 3,Supermarket Type2,1553.03
+ITM0482,10.96,Regular,0.239,Baking Goods,60.15,OUT004,2017,Medium,Tier 2,Grocery Store,2482.36
+ITM0483,0.6,Low Fat,0.186,Soft Drinks,36.46,OUT001,2001,Small,Tier 3,Grocery Store,251.22
+ITM0484,7.57,Low Fat,0.17,Soft Drinks,370.19,OUT004,2013,Small,Tier 3,Supermarket Type2,3349.2
+ITM0485,5.71,Low Fat,0.084,Household,492.41,OUT002,2007,Small,Tier 1,Supermarket Type1,2111.73
+ITM0486,14.92,Regular,0.19,Fruits & Vegetables,253.77,OUT001,2019,Large,Tier 3,Supermarket Type2,2150.54
+ITM0487,14.51,Regular,0.13,Dairy,105.53,OUT001,2010,Medium,Tier 3,Grocery Store,1195.9
+ITM0488,5.28,Low Fat,0.212,Soft Drinks,287.55,OUT003,2019,Small,Tier 3,Supermarket Type2,1694.22
+ITM0489,3.44,Low Fat,0.162,Frozen Foods,119.37,OUT002,2002,Medium,Tier 3,Supermarket Type2,1384.49
+ITM0490,5.42,Low Fat,0.022,Soft Drinks,113.72,OUT002,2004,Small,Tier 2,Grocery Store,2796.41
+ITM0491,0.59,Regular,0.102,Household,368.12,OUT001,2017,Medium,Tier 1,Grocery Store,928.91
+ITM0492,11.55,Regular,0.021,Household,219.38,OUT003,2001,Small,Tier 1,Supermarket Type2,1732.6
+ITM0493,5.83,Regular,0.21,Dairy,21.93,OUT002,2012,Small,Tier 3,Grocery Store,2155.86
+ITM0494,17.41,Low Fat,0.052,Snack Foods,99.95,OUT005,2013,Small,Tier 1,Supermarket Type2,884.62
+ITM0495,16.63,Regular,0.215,Fruits & Vegetables,428.43,OUT005,2010,Large,Tier 1,Supermarket Type1,829.91
+ITM0496,1.81,Low Fat,0.25,Dairy,325.61,OUT005,2020,Small,Tier 2,Supermarket Type2,678.72
+ITM0497,1.45,Regular,0.022,Frozen Foods,173.06,OUT003,2019,Large,Tier 2,Supermarket Type2,1536.31
+ITM0498,8.29,Regular,0.073,Dairy,388.18,OUT001,2014,Large,Tier 1,Supermarket Type1,1981.38
+ITM0499,7.68,Regular,0.225,Fruits & Vegetables,145.7,OUT005,2002,Medium,Tier 2,Supermarket Type2,423.34
+ITM0500,8.31,Regular,0.074,Health and Hygiene,398.16,OUT004,2019,Medium,Tier 3,Supermarket Type2,1348.2
+ITM0501,11.0,Regular,0.142,Household,203.7,OUT005,2007,Large,Tier 3,Grocery Store,2748.95
+ITM0502,1.83,Low Fat,0.024,Canned,371.09,OUT004,2017,Small,Tier 1,Supermarket Type2,1565.59
+ITM0503,4.62,Regular,0.223,Soft Drinks,336.27,OUT002,2000,Large,Tier 2,Supermarket Type2,1539.39
+ITM0504,13.17,Regular,0.163,Fruits & Vegetables,400.01,OUT003,2003,Small,Tier 2,Supermarket Type1,2575.57
+ITM0505,2.87,Regular,0.205,Canned,425.61,OUT004,2006,Small,Tier 3,Grocery Store,1664.91
+ITM0506,3.07,Low Fat,0.083,Dairy,23.13,OUT001,2016,Large,Tier 3,Grocery Store,2026.51
+ITM0507,3.9,Regular,0.206,Health and Hygiene,343.67,OUT001,2020,Small,Tier 3,Grocery Store,2121.45
+ITM0508,19.41,Regular,0.033,Soft Drinks,143.29,OUT002,1999,Medium,Tier 1,Supermarket Type1,1549.68
+ITM0509,17.64,Low Fat,0.157,Baking Goods,415.67,OUT002,2020,Medium,Tier 3,Supermarket Type2,3391.12
+ITM0510,1.59,Low Fat,0.207,Health and Hygiene,357.93,OUT005,2001,Small,Tier 2,Supermarket Type2,1401.97
+ITM0511,4.9,Regular,0.014,Soft Drinks,274.01,OUT001,2008,Small,Tier 3,Grocery Store,1038.29
+ITM0512,4.77,Regular,0.089,Fruits & Vegetables,75.34,OUT001,2010,Small,Tier 1,Supermarket Type1,323.17
+ITM0513,17.77,Regular,0.112,Canned,216.36,OUT003,2000,Large,Tier 1,Grocery Store,2687.66
+ITM0514,4.58,Low Fat,0.065,Baking Goods,417.04,OUT001,2011,Small,Tier 3,Grocery Store,1566.53
+ITM0515,3.57,Regular,0.062,Household,483.03,OUT004,2018,Large,Tier 1,Grocery Store,846.19
+ITM0516,19.01,Low Fat,0.208,Soft Drinks,402.13,OUT001,2020,Large,Tier 3,Supermarket Type1,1193.7
+ITM0517,12.32,Low Fat,0.226,Dairy,246.2,OUT003,2015,Large,Tier 2,Grocery Store,2379.52
+ITM0518,5.82,Low Fat,0.065,Soft Drinks,29.48,OUT003,2015,Large,Tier 1,Supermarket Type2,1949.8
+ITM0519,18.15,Low Fat,0.231,Household,314.0,OUT003,2001,Small,Tier 3,Supermarket Type2,957.79
+ITM0520,15.39,Low Fat,0.211,Household,156.42,OUT003,2020,Small,Tier 1,Grocery Store,1984.62
+ITM0521,8.36,Low Fat,0.18,Dairy,220.92,OUT005,2000,Small,Tier 3,Grocery Store,558.08
+ITM0522,10.58,Low Fat,0.135,Dairy,249.02,OUT004,2020,Medium,Tier 1,Supermarket Type1,2467.31
+ITM0523,4.65,Regular,0.137,Canned,244.4,OUT003,2004,Small,Tier 1,Supermarket Type1,515.1
+ITM0524,2.99,Regular,0.179,Household,463.76,OUT004,2011,Large,Tier 2,Supermarket Type1,3157.87
+ITM0525,14.61,Low Fat,0.248,Canned,496.33,OUT001,2019,Small,Tier 3,Grocery Store,933.46
+ITM0526,3.96,Low Fat,0.151,Soft Drinks,321.47,OUT003,2012,Large,Tier 2,Supermarket Type1,3310.95
+ITM0527,14.74,Low Fat,0.055,Dairy,70.14,OUT003,2007,Medium,Tier 2,Supermarket Type1,2096.72
+ITM0528,14.7,Low Fat,0.068,Canned,266.22,OUT002,2008,Medium,Tier 2,Supermarket Type1,1273.63
+ITM0529,13.69,Low Fat,0.065,Snack Foods,447.59,OUT003,2007,Medium,Tier 2,Supermarket Type2,1148.96
+ITM0530,15.94,Regular,0.081,Household,440.15,OUT003,2004,Large,Tier 1,Grocery Store,2341.52
+ITM0531,5.36,Low Fat,0.124,Canned,161.02,OUT004,2019,Large,Tier 3,Grocery Store,993.15
+ITM0532,9.94,Low Fat,0.182,Household,177.98,OUT003,2002,Medium,Tier 1,Supermarket Type2,675.44
+ITM0533,19.99,Regular,0.239,Canned,477.27,OUT003,2010,Large,Tier 3,Grocery Store,2500.67
+ITM0534,10.69,Low Fat,0.215,Baking Goods,414.08,OUT001,2020,Small,Tier 2,Supermarket Type1,1137.39
+ITM0535,4.72,Regular,0.182,Household,379.68,OUT002,2006,Small,Tier 2,Supermarket Type1,1961.23
+ITM0536,18.06,Low Fat,0.063,Baking Goods,296.13,OUT004,2015,Medium,Tier 3,Supermarket Type2,2734.02
+ITM0537,14.37,Low Fat,0.123,Frozen Foods,226.0,OUT003,2012,Large,Tier 1,Grocery Store,898.42
+ITM0538,13.98,Low Fat,0.022,Fruits & Vegetables,75.04,OUT003,2013,Large,Tier 1,Supermarket Type2,1101.9
+ITM0539,11.54,Low Fat,0.01,Baking Goods,136.24,OUT004,2007,Medium,Tier 2,Supermarket Type2,1840.95
+ITM0540,17.22,Regular,0.099,Canned,64.08,OUT002,2002,Large,Tier 2,Supermarket Type2,334.98
+ITM0541,10.37,Regular,0.121,Dairy,464.85,OUT003,2007,Small,Tier 1,Grocery Store,2017.84
+ITM0542,8.4,Low Fat,0.084,Baking Goods,497.34,OUT001,2018,Small,Tier 3,Supermarket Type1,996.3
+ITM0543,11.59,Low Fat,0.103,Dairy,451.99,OUT002,2007,Medium,Tier 1,Supermarket Type1,3128.66
+ITM0544,1.21,Regular,0.246,Canned,248.38,OUT002,2008,Small,Tier 1,Supermarket Type1,1783.03
+ITM0545,5.66,Low Fat,0.13,Soft Drinks,156.08,OUT005,2002,Large,Tier 3,Supermarket Type1,286.32
+ITM0546,3.33,Low Fat,0.154,Canned,210.89,OUT002,2018,Small,Tier 1,Grocery Store,2291.75
+ITM0547,8.5,Regular,0.105,Snack Foods,389.17,OUT004,2019,Large,Tier 2,Grocery Store,1205.41
+ITM0548,6.97,Low Fat,0.027,Frozen Foods,303.79,OUT005,2007,Large,Tier 1,Grocery Store,624.54
+ITM0549,15.41,Regular,0.188,Frozen Foods,331.07,OUT002,2002,Small,Tier 3,Supermarket Type1,495.64
+ITM0550,13.01,Regular,0.162,Health and Hygiene,245.11,OUT001,2005,Large,Tier 3,Grocery Store,485.27
+ITM0551,17.74,Regular,0.079,Snack Foods,70.54,OUT004,2017,Medium,Tier 1,Grocery Store,3034.94
+ITM0552,18.74,Low Fat,0.212,Soft Drinks,256.52,OUT003,2014,Large,Tier 3,Grocery Store,2583.19
+ITM0553,10.46,Low Fat,0.139,Fruits & Vegetables,241.49,OUT005,2003,Large,Tier 2,Supermarket Type2,2035.54
+ITM0554,4.19,Regular,0.2,Soft Drinks,249.41,OUT005,2004,Large,Tier 1,Supermarket Type2,1281.38
+ITM0555,2.65,Regular,0.07,Fruits & Vegetables,27.0,OUT003,2008,Large,Tier 3,Supermarket Type2,957.84
+ITM0556,14.42,Regular,0.036,Canned,283.14,OUT004,2007,Large,Tier 1,Grocery Store,2493.13
+ITM0557,19.92,Regular,0.215,Household,80.73,OUT002,2000,Large,Tier 1,Grocery Store,1852.24
+ITM0558,14.74,Low Fat,0.125,Baking Goods,153.4,OUT003,2016,Medium,Tier 2,Supermarket Type1,2492.24
+ITM0559,14.02,Low Fat,0.131,Household,34.55,OUT003,2020,Large,Tier 1,Grocery Store,1355.59
+ITM0560,18.71,Regular,0.13,Household,90.05,OUT002,2018,Large,Tier 1,Grocery Store,2971.36
+ITM0561,18.74,Low Fat,0.176,Canned,327.42,OUT004,2017,Large,Tier 3,Supermarket Type1,756.66
+ITM0562,17.04,Regular,0.046,Baking Goods,297.67,OUT004,2004,Small,Tier 1,Supermarket Type1,3072.64
+ITM0563,7.24,Regular,0.14,Baking Goods,20.43,OUT004,2016,Large,Tier 1,Supermarket Type2,1747.29
+ITM0564,10.58,Low Fat,0.186,Health and Hygiene,36.0,OUT004,2019,Medium,Tier 3,Supermarket Type1,1253.98
+ITM0565,5.8,Regular,0.037,Dairy,472.01,OUT003,2004,Small,Tier 2,Grocery Store,3576.33
+ITM0566,0.94,Regular,0.226,Health and Hygiene,419.6,OUT004,2010,Small,Tier 3,Supermarket Type1,3219.69
+ITM0567,2.01,Regular,0.071,Frozen Foods,249.1,OUT002,2009,Small,Tier 3,Supermarket Type1,1530.66
+ITM0568,13.54,Low Fat,0.247,Baking Goods,257.75,OUT002,2017,Small,Tier 2,Grocery Store,2201.33
+ITM0569,12.7,Low Fat,0.209,Canned,319.55,OUT004,2013,Small,Tier 1,Supermarket Type1,2333.31
+ITM0570,11.24,Regular,0.14,Frozen Foods,347.39,OUT004,2018,Large,Tier 3,Grocery Store,1463.55
+ITM0571,19.91,Regular,0.072,Household,308.62,OUT003,2016,Small,Tier 2,Grocery Store,1733.89
+ITM0572,17.82,Low Fat,0.213,Frozen Foods,347.33,OUT005,2003,Medium,Tier 1,Supermarket Type2,2205.24
+ITM0573,14.22,Low Fat,0.107,Baking Goods,137.59,OUT005,2010,Small,Tier 2,Supermarket Type2,1409.92
+ITM0574,10.27,Regular,0.205,Fruits & Vegetables,92.49,OUT003,2000,Medium,Tier 3,Grocery Store,746.72
+ITM0575,11.5,Regular,0.077,Baking Goods,134.88,OUT002,2018,Large,Tier 2,Grocery Store,831.6
+ITM0576,15.25,Regular,0.242,Frozen Foods,173.63,OUT003,2000,Large,Tier 1,Grocery Store,1642.77
+ITM0577,8.84,Regular,0.065,Health and Hygiene,80.08,OUT003,2020,Small,Tier 2,Supermarket Type2,511.33
+ITM0578,15.18,Regular,0.187,Baking Goods,292.99,OUT005,2016,Medium,Tier 1,Supermarket Type2,919.02
+ITM0579,2.26,Low Fat,0.05,Dairy,298.81,OUT002,2015,Large,Tier 2,Supermarket Type1,2972.77
+ITM0580,1.12,Low Fat,0.117,Canned,220.36,OUT001,2019,Large,Tier 3,Supermarket Type2,2801.22
+ITM0581,8.9,Low Fat,0.181,Baking Goods,87.79,OUT004,2015,Medium,Tier 1,Grocery Store,2675.64
+ITM0582,18.74,Low Fat,0.034,Frozen Foods,353.25,OUT002,2011,Large,Tier 1,Supermarket Type1,2186.38
+ITM0583,11.42,Regular,0.224,Baking Goods,277.42,OUT002,2003,Large,Tier 3,Supermarket Type2,1520.05
+ITM0584,15.2,Regular,0.108,Health and Hygiene,80.15,OUT003,2005,Medium,Tier 3,Supermarket Type1,410.63
+ITM0585,9.53,Low Fat,0.035,Snack Foods,223.88,OUT003,2000,Medium,Tier 2,Supermarket Type1,2435.64
+ITM0586,11.97,Regular,0.103,Frozen Foods,399.27,OUT001,2002,Small,Tier 2,Grocery Store,1605.76
+ITM0587,18.72,Low Fat,0.197,Frozen Foods,366.48,OUT004,2015,Medium,Tier 1,Supermarket Type2,2857.53
+ITM0588,7.62,Regular,0.021,Dairy,250.06,OUT001,2014,Large,Tier 3,Supermarket Type2,1909.8
+ITM0589,3.68,Regular,0.227,Household,223.51,OUT001,2008,Large,Tier 2,Supermarket Type1,1349.78
+ITM0590,14.52,Regular,0.093,Dairy,489.9,OUT004,2020,Medium,Tier 3,Supermarket Type2,928.95
+ITM0591,12.28,Low Fat,0.153,Snack Foods,59.98,OUT004,2003,Small,Tier 3,Supermarket Type1,2919.32
+ITM0592,8.58,Regular,0.061,Baking Goods,160.24,OUT001,2003,Small,Tier 1,Supermarket Type2,537.55
+ITM0593,19.57,Low Fat,0.205,Health and Hygiene,301.9,OUT003,2005,Small,Tier 3,Grocery Store,503.17
+ITM0594,10.31,Regular,0.131,Dairy,171.94,OUT001,2017,Small,Tier 1,Grocery Store,1128.87
+ITM0595,5.17,Regular,0.086,Household,63.36,OUT003,2020,Small,Tier 1,Grocery Store,589.32
+ITM0596,7.38,Regular,0.198,Canned,205.69,OUT003,2004,Medium,Tier 3,Supermarket Type1,2050.02
+ITM0597,19.2,Low Fat,0.05,Dairy,420.58,OUT003,2004,Small,Tier 1,Supermarket Type2,2427.11
+ITM0598,18.36,Low Fat,0.047,Household,325.08,OUT002,2008,Large,Tier 2,Supermarket Type2,1734.3
+ITM0599,1.96,Regular,0.21,Health and Hygiene,226.23,OUT001,2014,Medium,Tier 3,Supermarket Type1,1517.7
+ITM0600,14.49,Regular,0.19,Snack Foods,234.28,OUT003,2005,Medium,Tier 2,Supermarket Type1,1537.5
+ITM0601,16.98,Low Fat,0.161,Canned,432.21,OUT004,2018,Large,Tier 1,Supermarket Type1,2886.14
+ITM0602,13.83,Regular,0.21,Canned,410.15,OUT003,1999,Large,Tier 1,Supermarket Type1,718.43
+ITM0603,7.91,Low Fat,0.058,Fruits & Vegetables,484.94,OUT001,2018,Large,Tier 1,Grocery Store,848.05
+ITM0604,5.73,Low Fat,0.229,Health and Hygiene,390.9,OUT002,2006,Large,Tier 1,Supermarket Type2,2354.09
+ITM0605,2.73,Low Fat,0.012,Soft Drinks,379.39,OUT004,2010,Medium,Tier 3,Supermarket Type2,1064.79
+ITM0606,16.62,Low Fat,0.122,Household,58.85,OUT004,2018,Small,Tier 1,Grocery Store,2824.38
+ITM0607,10.02,Low Fat,0.104,Fruits & Vegetables,92.33,OUT004,2012,Large,Tier 1,Supermarket Type2,1974.44
+ITM0608,19.91,Regular,0.181,Frozen Foods,401.65,OUT005,2002,Large,Tier 3,Grocery Store,2020.82
+ITM0609,19.99,Low Fat,0.178,Fruits & Vegetables,268.56,OUT003,2010,Large,Tier 2,Supermarket Type1,1861.49
+ITM0610,6.69,Low Fat,0.027,Household,453.32,OUT005,2015,Large,Tier 1,Grocery Store,1087.67
+ITM0611,14.62,Low Fat,0.078,Baking Goods,296.57,OUT001,2014,Medium,Tier 3,Supermarket Type2,1834.08
+ITM0612,8.87,Regular,0.106,Snack Foods,272.09,OUT004,2005,Medium,Tier 2,Supermarket Type1,2086.73
+ITM0613,18.91,Low Fat,0.189,Baking Goods,240.75,OUT002,2007,Small,Tier 1,Supermarket Type2,843.87
+ITM0614,16.03,Regular,0.064,Health and Hygiene,418.5,OUT004,2020,Small,Tier 3,Supermarket Type2,1726.63
+ITM0615,9.55,Low Fat,0.214,Dairy,381.93,OUT004,2018,Large,Tier 3,Supermarket Type2,2774.43
+ITM0616,1.92,Low Fat,0.225,Dairy,375.6,OUT001,2005,Small,Tier 3,Grocery Store,2029.59
+ITM0617,1.64,Regular,0.077,Baking Goods,67.04,OUT003,2002,Medium,Tier 1,Grocery Store,876.35
+ITM0618,10.79,Regular,0.206,Soft Drinks,306.44,OUT005,2013,Medium,Tier 2,Supermarket Type2,3113.7
+ITM0619,13.59,Low Fat,0.247,Snack Foods,269.76,OUT004,2012,Large,Tier 3,Supermarket Type1,2752.12
+ITM0620,8.72,Regular,0.208,Soft Drinks,304.65,OUT004,1999,Medium,Tier 1,Supermarket Type1,701.67
+ITM0621,6.08,Low Fat,0.118,Fruits & Vegetables,28.49,OUT002,2012,Medium,Tier 3,Supermarket Type2,2436.69
+ITM0622,5.52,Regular,0.057,Health and Hygiene,130.6,OUT004,2002,Large,Tier 3,Supermarket Type1,2183.72
+ITM0623,14.36,Low Fat,0.092,Baking Goods,245.9,OUT005,2000,Medium,Tier 1,Grocery Store,3155.17
+ITM0624,10.5,Regular,0.178,Baking Goods,46.82,OUT001,2017,Medium,Tier 3,Supermarket Type2,2052.72
+ITM0625,1.38,Low Fat,0.134,Household,126.83,OUT005,2012,Large,Tier 2,Supermarket Type1,1929.66
+ITM0626,12.99,Regular,0.057,Soft Drinks,26.98,OUT002,2011,Large,Tier 1,Supermarket Type2,968.92
+ITM0627,12.31,Low Fat,0.165,Dairy,129.26,OUT002,2015,Small,Tier 3,Supermarket Type2,1733.97
+ITM0628,15.61,Low Fat,0.153,Fruits & Vegetables,430.92,OUT002,2006,Small,Tier 3,Supermarket Type1,1402.87
+ITM0629,0.84,Low Fat,0.014,Dairy,380.06,OUT004,2007,Large,Tier 2,Supermarket Type2,2029.9
+ITM0630,3.54,Low Fat,0.144,Dairy,499.78,OUT005,2009,Large,Tier 1,Supermarket Type2,834.12
+ITM0631,6.42,Low Fat,0.103,Baking Goods,499.24,OUT002,2007,Small,Tier 2,Grocery Store,2494.74
+ITM0632,1.12,Regular,0.232,Frozen Foods,37.79,OUT004,2013,Large,Tier 3,Grocery Store,2933.62
+ITM0633,15.31,Regular,0.012,Fruits & Vegetables,450.9,OUT004,2002,Large,Tier 1,Grocery Store,690.4
+ITM0634,17.94,Low Fat,0.084,Dairy,203.25,OUT001,2004,Small,Tier 1,Supermarket Type1,995.16
+ITM0635,14.99,Low Fat,0.135,Dairy,219.97,OUT004,2014,Medium,Tier 3,Supermarket Type1,2617.37
+ITM0636,15.19,Low Fat,0.119,Household,70.53,OUT004,2016,Large,Tier 2,Supermarket Type2,2532.65
+ITM0637,0.61,Regular,0.129,Frozen Foods,210.15,OUT003,2015,Medium,Tier 1,Grocery Store,515.73
+ITM0638,12.89,Regular,0.131,Fruits & Vegetables,182.41,OUT002,2003,Small,Tier 3,Grocery Store,548.04
+ITM0639,11.35,Regular,0.216,Soft Drinks,349.92,OUT005,2006,Medium,Tier 1,Supermarket Type1,1184.77
+ITM0640,18.66,Regular,0.209,Health and Hygiene,348.02,OUT002,1999,Medium,Tier 3,Supermarket Type2,2940.36
+ITM0641,18.78,Low Fat,0.208,Health and Hygiene,252.29,OUT004,2006,Large,Tier 1,Supermarket Type1,2510.45
+ITM0642,18.76,Low Fat,0.138,Health and Hygiene,90.95,OUT002,2006,Small,Tier 1,Grocery Store,1503.25
+ITM0643,6.0,Low Fat,0.053,Fruits & Vegetables,270.94,OUT003,2006,Large,Tier 1,Grocery Store,3131.82
+ITM0644,0.51,Low Fat,0.075,Canned,382.79,OUT005,2017,Large,Tier 2,Supermarket Type2,2206.27
+ITM0645,9.36,Low Fat,0.221,Household,92.3,OUT001,2017,Small,Tier 2,Supermarket Type2,1789.08
+ITM0646,4.92,Regular,0.11,Baking Goods,277.56,OUT001,2005,Small,Tier 1,Supermarket Type1,2508.59
+ITM0647,12.45,Low Fat,0.05,Frozen Foods,305.4,OUT001,2013,Small,Tier 2,Supermarket Type2,1562.5
+ITM0648,9.1,Regular,0.057,Baking Goods,384.07,OUT003,2003,Small,Tier 3,Supermarket Type2,2344.93
+ITM0649,7.16,Low Fat,0.018,Baking Goods,159.18,OUT004,2016,Large,Tier 1,Grocery Store,1298.84
+ITM0650,2.52,Low Fat,0.048,Health and Hygiene,318.43,OUT005,2007,Small,Tier 1,Supermarket Type1,571.04
+ITM0651,10.03,Low Fat,0.035,Health and Hygiene,456.22,OUT003,2015,Medium,Tier 2,Supermarket Type2,1666.87
+ITM0652,8.03,Regular,0.229,Frozen Foods,112.0,OUT005,1999,Small,Tier 2,Grocery Store,2436.55
+ITM0653,13.69,Regular,0.122,Health and Hygiene,120.92,OUT003,2014,Large,Tier 2,Grocery Store,582.75
+ITM0654,8.09,Regular,0.168,Baking Goods,48.22,OUT001,2006,Large,Tier 2,Supermarket Type1,1813.8
+ITM0655,6.23,Low Fat,0.106,Baking Goods,423.05,OUT004,2001,Medium,Tier 2,Grocery Store,3273.23
+ITM0656,7.53,Regular,0.206,Snack Foods,88.08,OUT003,2000,Small,Tier 1,Supermarket Type2,2872.29
+ITM0657,4.8,Low Fat,0.22,Health and Hygiene,174.35,OUT003,2008,Small,Tier 1,Supermarket Type2,3019.95
+ITM0658,3.17,Low Fat,0.065,Canned,400.59,OUT005,2011,Large,Tier 3,Grocery Store,1001.94
+ITM0659,2.55,Low Fat,0.028,Dairy,198.35,OUT005,2011,Medium,Tier 2,Supermarket Type2,2787.93
+ITM0660,9.36,Low Fat,0.145,Fruits & Vegetables,263.74,OUT003,2019,Small,Tier 3,Supermarket Type1,2567.91
+ITM0661,4.32,Low Fat,0.22,Soft Drinks,201.16,OUT001,2012,Medium,Tier 3,Grocery Store,2870.4
+ITM0662,12.42,Regular,0.071,Dairy,348.29,OUT004,2019,Large,Tier 3,Supermarket Type1,3314.6
+ITM0663,19.72,Regular,0.019,Baking Goods,482.31,OUT001,2004,Small,Tier 3,Grocery Store,2923.93
+ITM0664,10.7,Regular,0.217,Canned,276.15,OUT001,2018,Small,Tier 2,Grocery Store,1330.67
+ITM0665,15.83,Regular,0.049,Dairy,449.51,OUT003,2010,Large,Tier 2,Supermarket Type1,3159.95
+ITM0666,7.75,Regular,0.088,Fruits & Vegetables,165.67,OUT001,2011,Small,Tier 3,Supermarket Type1,2193.0
+ITM0667,4.08,Low Fat,0.039,Canned,448.46,OUT002,2007,Medium,Tier 1,Supermarket Type1,3031.76
+ITM0668,16.52,Low Fat,0.169,Household,400.1,OUT002,2012,Medium,Tier 2,Grocery Store,2024.79
+ITM0669,2.17,Low Fat,0.096,Frozen Foods,128.02,OUT002,2014,Small,Tier 1,Supermarket Type2,2619.28
+ITM0670,5.94,Regular,0.185,Frozen Foods,278.57,OUT005,2011,Small,Tier 1,Grocery Store,2292.52
+ITM0671,9.98,Regular,0.062,Frozen Foods,283.32,OUT004,2018,Large,Tier 1,Supermarket Type2,1427.99
+ITM0672,19.92,Low Fat,0.123,Soft Drinks,28.03,OUT003,2017,Large,Tier 2,Supermarket Type1,821.19
+ITM0673,13.5,Low Fat,0.168,Dairy,463.33,OUT002,2009,Medium,Tier 1,Supermarket Type2,766.78
+ITM0674,18.84,Low Fat,0.074,Snack Foods,45.61,OUT002,2015,Medium,Tier 2,Supermarket Type2,2425.29
+ITM0675,2.26,Low Fat,0.077,Fruits & Vegetables,254.03,OUT002,2001,Medium,Tier 2,Supermarket Type1,2419.51
+ITM0676,9.1,Regular,0.112,Frozen Foods,342.31,OUT004,1999,Large,Tier 1,Supermarket Type1,1516.66
+ITM0677,5.33,Regular,0.143,Canned,369.43,OUT005,2003,Medium,Tier 2,Supermarket Type2,1176.64
+ITM0678,12.9,Regular,0.104,Snack Foods,275.15,OUT005,2019,Small,Tier 2,Grocery Store,1851.12
+ITM0679,15.35,Low Fat,0.127,Frozen Foods,391.3,OUT003,2020,Medium,Tier 1,Supermarket Type2,2368.37
+ITM0680,12.74,Low Fat,0.205,Fruits & Vegetables,472.87,OUT002,2016,Medium,Tier 1,Supermarket Type1,2874.17
+ITM0681,2.58,Regular,0.073,Health and Hygiene,398.64,OUT002,2004,Large,Tier 2,Supermarket Type1,1345.23
+ITM0682,18.65,Regular,0.193,Frozen Foods,194.39,OUT002,2003,Small,Tier 3,Supermarket Type1,2011.76
+ITM0683,19.2,Low Fat,0.227,Baking Goods,311.25,OUT003,2010,Large,Tier 1,Supermarket Type2,2935.13
+ITM0684,0.84,Low Fat,0.128,Soft Drinks,168.51,OUT005,2012,Large,Tier 2,Grocery Store,560.97
+ITM0685,15.82,Regular,0.166,Canned,282.64,OUT003,2008,Large,Tier 2,Supermarket Type2,2179.51
+ITM0686,12.98,Low Fat,0.206,Household,392.81,OUT003,2011,Small,Tier 1,Grocery Store,528.17
+ITM0687,6.85,Low Fat,0.196,Snack Foods,391.17,OUT004,2013,Medium,Tier 2,Supermarket Type2,3224.04
+ITM0688,15.01,Low Fat,0.059,Fruits & Vegetables,202.44,OUT003,2003,Small,Tier 2,Grocery Store,2170.26
+ITM0689,6.58,Regular,0.022,Fruits & Vegetables,313.76,OUT002,2012,Medium,Tier 1,Supermarket Type2,2819.69
+ITM0690,5.95,Regular,0.121,Dairy,228.03,OUT003,2000,Large,Tier 3,Supermarket Type1,3120.47
+ITM0691,5.01,Regular,0.125,Baking Goods,389.27,OUT002,2005,Small,Tier 2,Supermarket Type2,807.05
+ITM0692,15.62,Regular,0.164,Soft Drinks,383.53,OUT002,2012,Small,Tier 2,Grocery Store,580.79
+ITM0693,3.1,Low Fat,0.151,Household,288.15,OUT001,2006,Medium,Tier 3,Supermarket Type1,3019.67
+ITM0694,4.52,Low Fat,0.164,Snack Foods,321.45,OUT002,2004,Medium,Tier 3,Supermarket Type2,2538.57
+ITM0695,9.34,Low Fat,0.192,Baking Goods,478.44,OUT001,2003,Small,Tier 3,Supermarket Type1,2722.85
+ITM0696,17.27,Low Fat,0.051,Health and Hygiene,356.34,OUT004,2017,Large,Tier 3,Supermarket Type2,1680.73
+ITM0697,10.27,Regular,0.16,Dairy,197.2,OUT002,2008,Large,Tier 2,Grocery Store,846.37
+ITM0698,3.53,Low Fat,0.127,Fruits & Vegetables,231.87,OUT001,2020,Large,Tier 3,Supermarket Type2,3072.41
+ITM0699,9.2,Regular,0.149,Household,135.42,OUT001,2006,Large,Tier 3,Grocery Store,1168.2
+ITM0700,9.18,Regular,0.044,Baking Goods,457.52,OUT002,2009,Medium,Tier 2,Supermarket Type2,1299.86
+ITM0701,9.3,Regular,0.186,Dairy,139.08,OUT005,2017,Large,Tier 2,Supermarket Type1,1473.78
+ITM0702,13.06,Low Fat,0.246,Fruits & Vegetables,395.08,OUT005,2006,Small,Tier 1,Supermarket Type2,542.54
+ITM0703,12.21,Low Fat,0.109,Baking Goods,351.24,OUT002,2009,Medium,Tier 1,Supermarket Type2,1473.97
+ITM0704,16.96,Low Fat,0.117,Fruits & Vegetables,135.48,OUT001,2012,Large,Tier 3,Supermarket Type2,1840.69
+ITM0705,1.5,Low Fat,0.171,Snack Foods,133.6,OUT001,2006,Medium,Tier 2,Supermarket Type2,334.42
+ITM0706,16.3,Low Fat,0.1,Baking Goods,462.55,OUT002,1999,Small,Tier 2,Supermarket Type2,2087.42
+ITM0707,1.76,Regular,0.073,Snack Foods,471.65,OUT004,2014,Medium,Tier 3,Supermarket Type1,3291.83
+ITM0708,7.36,Low Fat,0.204,Soft Drinks,41.3,OUT005,2015,Large,Tier 2,Supermarket Type2,1736.14
+ITM0709,6.14,Low Fat,0.098,Dairy,309.61,OUT004,2001,Small,Tier 1,Supermarket Type2,959.35
+ITM0710,11.44,Regular,0.054,Dairy,93.05,OUT005,2014,Large,Tier 2,Supermarket Type2,1676.13
+ITM0711,2.28,Low Fat,0.132,Baking Goods,386.5,OUT005,2017,Medium,Tier 3,Supermarket Type1,757.37
+ITM0712,11.03,Low Fat,0.214,Soft Drinks,332.78,OUT001,2016,Medium,Tier 2,Grocery Store,580.78
+ITM0713,5.3,Regular,0.028,Snack Foods,467.15,OUT002,2014,Small,Tier 3,Supermarket Type2,981.22
+ITM0714,12.73,Low Fat,0.094,Fruits & Vegetables,177.54,OUT005,2003,Small,Tier 2,Grocery Store,2761.02
+ITM0715,13.28,Regular,0.186,Canned,23.32,OUT002,2014,Large,Tier 2,Grocery Store,2081.55
+ITM0716,14.44,Low Fat,0.102,Dairy,78.97,OUT001,2016,Small,Tier 1,Grocery Store,1840.6
+ITM0717,19.58,Regular,0.233,Baking Goods,103.78,OUT002,2003,Small,Tier 2,Supermarket Type2,696.85
+ITM0718,19.65,Regular,0.12,Fruits & Vegetables,97.91,OUT002,2018,Small,Tier 3,Supermarket Type2,2798.11
+ITM0719,0.51,Low Fat,0.114,Soft Drinks,120.75,OUT001,2016,Large,Tier 2,Supermarket Type1,486.11
+ITM0720,4.07,Regular,0.036,Fruits & Vegetables,258.96,OUT002,2005,Medium,Tier 2,Supermarket Type2,2332.59
+ITM0721,2.47,Low Fat,0.122,Baking Goods,442.43,OUT002,2000,Medium,Tier 2,Supermarket Type1,3077.09
+ITM0722,3.42,Regular,0.054,Soft Drinks,113.5,OUT001,2020,Medium,Tier 1,Supermarket Type1,2001.25
+ITM0723,7.31,Low Fat,0.174,Health and Hygiene,464.99,OUT001,2008,Small,Tier 2,Grocery Store,1583.79
+ITM0724,10.31,Low Fat,0.221,Frozen Foods,188.81,OUT003,2015,Medium,Tier 3,Supermarket Type1,669.46
+ITM0725,11.33,Low Fat,0.175,Fruits & Vegetables,435.22,OUT005,2020,Medium,Tier 3,Supermarket Type2,2012.06
+ITM0726,16.27,Regular,0.186,Frozen Foods,206.05,OUT003,2019,Small,Tier 3,Supermarket Type2,781.4
+ITM0727,18.52,Regular,0.147,Canned,499.86,OUT001,2014,Medium,Tier 2,Supermarket Type2,618.64
+ITM0728,2.59,Low Fat,0.056,Canned,395.98,OUT004,2012,Small,Tier 1,Grocery Store,891.63
+ITM0729,14.93,Low Fat,0.067,Canned,231.34,OUT005,2000,Medium,Tier 3,Supermarket Type1,2284.8
+ITM0730,13.29,Low Fat,0.109,Soft Drinks,445.99,OUT004,2015,Small,Tier 1,Supermarket Type1,1943.0
+ITM0731,6.99,Regular,0.157,Snack Foods,222.34,OUT003,2017,Small,Tier 3,Supermarket Type1,2579.11
+ITM0732,8.13,Regular,0.128,Health and Hygiene,142.07,OUT003,2000,Small,Tier 2,Supermarket Type1,1866.22
+ITM0733,16.66,Regular,0.126,Soft Drinks,305.72,OUT005,2009,Small,Tier 1,Supermarket Type2,1913.46
+ITM0734,16.71,Regular,0.197,Soft Drinks,89.61,OUT001,2002,Small,Tier 1,Supermarket Type2,732.82
+ITM0735,17.35,Regular,0.154,Canned,295.86,OUT002,2004,Small,Tier 2,Supermarket Type1,2325.54
+ITM0736,8.0,Regular,0.046,Frozen Foods,104.19,OUT004,2015,Small,Tier 1,Grocery Store,2564.78
+ITM0737,5.93,Regular,0.083,Canned,69.91,OUT005,2013,Medium,Tier 1,Supermarket Type2,1671.52
+ITM0738,9.72,Regular,0.124,Frozen Foods,479.48,OUT003,2017,Large,Tier 1,Supermarket Type2,1422.58
+ITM0739,7.96,Low Fat,0.221,Soft Drinks,280.98,OUT001,2006,Medium,Tier 1,Supermarket Type2,1756.31
+ITM0740,1.89,Regular,0.045,Dairy,259.34,OUT001,2017,Medium,Tier 3,Grocery Store,1016.51
+ITM0741,4.39,Low Fat,0.222,Health and Hygiene,90.62,OUT005,2008,Large,Tier 3,Supermarket Type2,2996.96
+ITM0742,19.73,Regular,0.23,Snack Foods,366.19,OUT003,2002,Large,Tier 3,Supermarket Type1,2683.73
+ITM0743,16.59,Low Fat,0.142,Household,102.74,OUT001,2001,Medium,Tier 2,Supermarket Type1,1365.13
+ITM0744,4.8,Regular,0.187,Canned,28.7,OUT005,2013,Small,Tier 1,Supermarket Type2,2703.9
+ITM0745,8.73,Regular,0.055,Fruits & Vegetables,33.91,OUT004,2001,Medium,Tier 2,Supermarket Type1,404.26
+ITM0746,6.2,Regular,0.133,Fruits & Vegetables,266.76,OUT005,2014,Large,Tier 2,Grocery Store,1893.62
+ITM0747,6.65,Regular,0.082,Fruits & Vegetables,348.2,OUT001,2015,Small,Tier 2,Supermarket Type2,1157.18
+ITM0748,7.4,Low Fat,0.019,Dairy,236.52,OUT004,2005,Medium,Tier 3,Grocery Store,1337.88
+ITM0749,15.03,Regular,0.045,Baking Goods,424.42,OUT004,2004,Small,Tier 2,Grocery Store,3089.38
+ITM0750,17.48,Low Fat,0.231,Health and Hygiene,322.89,OUT002,2015,Large,Tier 1,Supermarket Type1,1211.87
+ITM0751,7.88,Low Fat,0.208,Household,442.38,OUT003,2006,Medium,Tier 2,Grocery Store,2299.3
+ITM0752,12.0,Low Fat,0.165,Dairy,183.21,OUT003,2014,Large,Tier 2,Supermarket Type2,2658.18
+ITM0753,2.63,Regular,0.159,Health and Hygiene,377.17,OUT001,1999,Medium,Tier 3,Grocery Store,3168.02
+ITM0754,15.42,Low Fat,0.156,Snack Foods,94.05,OUT004,2002,Small,Tier 3,Supermarket Type1,2550.74
+ITM0755,16.3,Low Fat,0.068,Baking Goods,420.29,OUT002,2020,Medium,Tier 1,Supermarket Type2,2032.85
+ITM0756,3.09,Low Fat,0.153,Soft Drinks,350.78,OUT005,2002,Large,Tier 1,Supermarket Type2,1729.64
+ITM0757,17.79,Regular,0.1,Dairy,337.58,OUT005,2011,Small,Tier 2,Supermarket Type2,2404.25
+ITM0758,16.29,Regular,0.13,Soft Drinks,80.19,OUT005,2008,Small,Tier 2,Supermarket Type2,231.9
+ITM0759,6.13,Low Fat,0.13,Soft Drinks,454.75,OUT002,2002,Medium,Tier 3,Supermarket Type2,2301.45
+ITM0760,4.15,Low Fat,0.223,Frozen Foods,85.0,OUT005,2012,Large,Tier 2,Supermarket Type1,3057.96
+ITM0761,17.39,Regular,0.059,Household,497.25,OUT004,2014,Large,Tier 2,Grocery Store,618.48
+ITM0762,4.33,Regular,0.139,Health and Hygiene,333.28,OUT004,2002,Large,Tier 2,Grocery Store,2372.76
+ITM0763,4.87,Regular,0.073,Health and Hygiene,42.9,OUT003,2001,Small,Tier 3,Supermarket Type2,1204.55
+ITM0764,11.62,Low Fat,0.08,Canned,331.35,OUT003,2008,Medium,Tier 2,Supermarket Type1,2052.46
+ITM0765,15.96,Regular,0.014,Soft Drinks,362.59,OUT003,2019,Medium,Tier 3,Grocery Store,1727.97
+ITM0766,2.89,Regular,0.184,Frozen Foods,303.57,OUT002,2011,Medium,Tier 3,Grocery Store,1795.37
+ITM0767,9.79,Low Fat,0.242,Household,338.18,OUT005,2017,Medium,Tier 1,Supermarket Type1,646.79
+ITM0768,14.11,Low Fat,0.032,Soft Drinks,246.88,OUT002,2000,Medium,Tier 1,Supermarket Type1,1107.68
+ITM0769,9.75,Low Fat,0.178,Frozen Foods,477.21,OUT003,2004,Large,Tier 1,Grocery Store,1605.69
+ITM0770,6.02,Low Fat,0.183,Fruits & Vegetables,225.34,OUT003,2000,Small,Tier 2,Grocery Store,1428.7
+ITM0771,12.5,Low Fat,0.018,Health and Hygiene,456.59,OUT003,2003,Medium,Tier 2,Supermarket Type1,1474.58
+ITM0772,12.11,Low Fat,0.088,Dairy,191.99,OUT003,2001,Large,Tier 1,Supermarket Type2,2735.71
+ITM0773,18.48,Regular,0.086,Baking Goods,94.17,OUT003,2007,Large,Tier 1,Supermarket Type1,1641.06
+ITM0774,0.69,Low Fat,0.105,Snack Foods,165.43,OUT002,2010,Small,Tier 2,Supermarket Type2,2297.45
+ITM0775,6.78,Regular,0.038,Canned,30.05,OUT005,2001,Small,Tier 3,Grocery Store,2546.64
+ITM0776,15.07,Regular,0.069,Snack Foods,349.95,OUT004,2011,Medium,Tier 2,Grocery Store,622.06
+ITM0777,13.84,Regular,0.031,Snack Foods,113.2,OUT002,2008,Large,Tier 3,Supermarket Type1,1063.23
+ITM0778,4.15,Regular,0.248,Dairy,277.91,OUT004,2001,Large,Tier 1,Supermarket Type2,872.88
+ITM0779,17.64,Low Fat,0.013,Baking Goods,280.76,OUT005,2002,Medium,Tier 2,Supermarket Type2,722.66
+ITM0780,13.35,Regular,0.042,Frozen Foods,334.08,OUT003,2002,Small,Tier 2,Supermarket Type2,969.71
+ITM0781,19.52,Low Fat,0.187,Baking Goods,330.14,OUT002,2018,Large,Tier 1,Supermarket Type2,2394.01
+ITM0782,9.39,Regular,0.068,Health and Hygiene,307.35,OUT001,2020,Medium,Tier 1,Supermarket Type2,941.02
+ITM0783,10.52,Regular,0.08,Frozen Foods,92.99,OUT004,1999,Large,Tier 3,Supermarket Type1,371.51
+ITM0784,13.62,Regular,0.22,Soft Drinks,401.18,OUT002,2009,Large,Tier 3,Grocery Store,1870.05
+ITM0785,10.34,Regular,0.191,Soft Drinks,378.84,OUT001,2008,Small,Tier 2,Supermarket Type1,1759.01
+ITM0786,6.22,Regular,0.137,Canned,257.0,OUT001,2017,Medium,Tier 3,Supermarket Type1,2995.27
+ITM0787,4.66,Low Fat,0.201,Household,94.49,OUT001,2019,Small,Tier 3,Supermarket Type2,945.21
+ITM0788,7.87,Low Fat,0.237,Frozen Foods,86.36,OUT003,2010,Large,Tier 2,Grocery Store,242.95
+ITM0789,7.64,Low Fat,0.248,Fruits & Vegetables,397.25,OUT002,2014,Small,Tier 1,Grocery Store,2155.21
+ITM0790,1.19,Low Fat,0.232,Baking Goods,38.89,OUT004,2011,Large,Tier 1,Grocery Store,979.86
+ITM0791,9.12,Low Fat,0.25,Canned,316.21,OUT004,2011,Large,Tier 2,Grocery Store,2209.12
+ITM0792,1.94,Regular,0.195,Soft Drinks,62.84,OUT004,1999,Medium,Tier 2,Supermarket Type2,2890.59
+ITM0793,8.35,Low Fat,0.213,Canned,219.76,OUT003,2020,Medium,Tier 2,Supermarket Type2,2618.76
+ITM0794,3.46,Regular,0.096,Fruits & Vegetables,292.66,OUT004,2010,Large,Tier 3,Supermarket Type2,1428.47
+ITM0795,14.93,Regular,0.088,Soft Drinks,266.14,OUT004,2017,Small,Tier 3,Supermarket Type2,551.35
+ITM0796,3.6,Low Fat,0.047,Household,342.45,OUT005,2018,Small,Tier 2,Supermarket Type2,1169.72
+ITM0797,13.12,Low Fat,0.151,Dairy,432.84,OUT003,2000,Medium,Tier 2,Supermarket Type1,2149.59
+ITM0798,11.68,Low Fat,0.139,Household,264.43,OUT002,2014,Large,Tier 2,Supermarket Type1,2884.09
+ITM0799,3.9,Low Fat,0.076,Fruits & Vegetables,172.28,OUT001,2006,Large,Tier 1,Supermarket Type1,1356.95
+ITM0800,3.29,Regular,0.234,Fruits & Vegetables,498.23,OUT004,2018,Small,Tier 1,Supermarket Type1,2390.81
+ITM0801,1.45,Regular,0.216,Canned,392.18,OUT002,2013,Large,Tier 2,Grocery Store,1861.71
+ITM0802,8.27,Regular,0.244,Snack Foods,146.7,OUT004,2000,Small,Tier 1,Grocery Store,1733.09
+ITM0803,2.96,Regular,0.072,Frozen Foods,109.42,OUT001,2017,Medium,Tier 1,Grocery Store,2058.71
+ITM0804,3.18,Regular,0.112,Fruits & Vegetables,41.06,OUT005,2011,Medium,Tier 3,Grocery Store,2820.6
+ITM0805,4.18,Regular,0.096,Household,360.91,OUT002,2015,Medium,Tier 3,Supermarket Type2,3239.77
+ITM0806,5.78,Regular,0.053,Fruits & Vegetables,179.84,OUT002,2005,Large,Tier 3,Supermarket Type2,603.52
+ITM0807,1.48,Low Fat,0.176,Snack Foods,468.67,OUT001,2020,Medium,Tier 2,Supermarket Type2,3651.52
+ITM0808,3.57,Low Fat,0.144,Canned,206.57,OUT001,2010,Large,Tier 2,Supermarket Type2,735.72
+ITM0809,6.73,Low Fat,0.127,Frozen Foods,70.31,OUT003,1999,Medium,Tier 2,Grocery Store,810.67
+ITM0810,2.22,Low Fat,0.115,Health and Hygiene,20.84,OUT004,2003,Medium,Tier 1,Supermarket Type1,2926.02
+ITM0811,3.9,Regular,0.122,Fruits & Vegetables,162.59,OUT004,2003,Large,Tier 3,Supermarket Type1,2593.07
+ITM0812,12.75,Low Fat,0.177,Dairy,447.97,OUT001,2000,Large,Tier 1,Grocery Store,1509.64
+ITM0813,19.33,Low Fat,0.205,Snack Foods,192.9,OUT004,2018,Small,Tier 2,Supermarket Type2,534.89
+ITM0814,2.07,Low Fat,0.023,Snack Foods,274.86,OUT004,2015,Small,Tier 3,Supermarket Type2,905.1
+ITM0815,6.85,Low Fat,0.214,Frozen Foods,135.88,OUT004,2012,Large,Tier 1,Supermarket Type2,1551.73
+ITM0816,4.12,Regular,0.134,Soft Drinks,108.45,OUT004,2017,Medium,Tier 2,Supermarket Type2,1385.46
+ITM0817,11.74,Low Fat,0.107,Dairy,465.0,OUT003,2010,Small,Tier 2,Supermarket Type2,626.9
+ITM0818,5.44,Low Fat,0.121,Household,371.94,OUT004,2006,Small,Tier 1,Supermarket Type2,2471.75
+ITM0819,2.79,Low Fat,0.066,Snack Foods,112.6,OUT002,2012,Medium,Tier 3,Supermarket Type2,1025.6
+ITM0820,5.06,Regular,0.101,Soft Drinks,486.4,OUT002,2018,Medium,Tier 3,Supermarket Type2,3336.2
+ITM0821,13.9,Regular,0.044,Canned,474.9,OUT001,2019,Medium,Tier 3,Supermarket Type2,862.42
+ITM0822,8.95,Regular,0.209,Snack Foods,322.3,OUT005,2001,Small,Tier 1,Supermarket Type2,764.03
+ITM0823,19.01,Low Fat,0.184,Fruits & Vegetables,338.09,OUT004,2002,Medium,Tier 3,Supermarket Type1,2793.25
+ITM0824,14.06,Regular,0.077,Baking Goods,441.41,OUT001,2014,Large,Tier 1,Grocery Store,3481.92
+ITM0825,19.97,Regular,0.11,Dairy,362.69,OUT002,2020,Small,Tier 3,Supermarket Type2,2623.1
+ITM0826,9.76,Regular,0.104,Fruits & Vegetables,385.86,OUT005,2009,Large,Tier 1,Supermarket Type2,2138.24
+ITM0827,9.29,Low Fat,0.035,Household,234.0,OUT001,2014,Large,Tier 3,Supermarket Type2,3310.82
+ITM0828,12.74,Regular,0.23,Soft Drinks,204.79,OUT005,2017,Large,Tier 2,Supermarket Type1,1911.98
+ITM0829,5.84,Regular,0.239,Canned,395.66,OUT002,2014,Small,Tier 3,Supermarket Type1,2887.7
+ITM0830,18.48,Low Fat,0.02,Canned,441.57,OUT005,2019,Medium,Tier 3,Supermarket Type2,3389.05
+ITM0831,2.63,Regular,0.19,Canned,145.34,OUT001,2008,Small,Tier 3,Supermarket Type1,2523.64
+ITM0832,7.83,Low Fat,0.204,Snack Foods,363.64,OUT001,2003,Large,Tier 1,Grocery Store,2020.47
+ITM0833,12.09,Low Fat,0.129,Baking Goods,155.18,OUT001,2012,Medium,Tier 2,Supermarket Type1,985.71
+ITM0834,4.41,Regular,0.139,Baking Goods,404.49,OUT001,2013,Small,Tier 3,Supermarket Type1,1222.03
+ITM0835,16.46,Low Fat,0.063,Fruits & Vegetables,22.83,OUT004,2004,Medium,Tier 2,Supermarket Type2,2917.9
+ITM0836,5.31,Regular,0.035,Dairy,148.02,OUT003,2002,Large,Tier 2,Supermarket Type2,2224.94
+ITM0837,3.65,Low Fat,0.177,Fruits & Vegetables,447.05,OUT001,2010,Medium,Tier 2,Grocery Store,1638.14
+ITM0838,15.23,Regular,0.137,Dairy,274.15,OUT002,2014,Medium,Tier 1,Grocery Store,2534.61
+ITM0839,3.19,Low Fat,0.236,Canned,128.65,OUT005,2018,Small,Tier 1,Supermarket Type1,3035.81
+ITM0840,13.91,Regular,0.08,Fruits & Vegetables,270.99,OUT003,2010,Large,Tier 1,Supermarket Type1,2441.04
+ITM0841,14.29,Regular,0.08,Soft Drinks,82.21,OUT002,2013,Large,Tier 2,Grocery Store,2697.65
+ITM0842,1.38,Low Fat,0.18,Household,148.21,OUT003,2014,Small,Tier 3,Grocery Store,1300.84
+ITM0843,19.47,Low Fat,0.037,Frozen Foods,52.97,OUT003,2009,Large,Tier 2,Supermarket Type2,2367.61
+ITM0844,15.42,Regular,0.042,Dairy,238.55,OUT005,2018,Small,Tier 2,Supermarket Type2,1276.67
+ITM0845,7.09,Low Fat,0.146,Baking Goods,222.13,OUT001,2010,Large,Tier 3,Supermarket Type2,1732.79
+ITM0846,13.62,Regular,0.142,Health and Hygiene,325.71,OUT005,2000,Medium,Tier 3,Supermarket Type2,2179.15
+ITM0847,5.8,Low Fat,0.041,Soft Drinks,201.61,OUT002,2002,Small,Tier 2,Grocery Store,3065.51
+ITM0848,16.52,Regular,0.213,Frozen Foods,95.8,OUT005,2011,Medium,Tier 2,Supermarket Type1,467.35
+ITM0849,1.3,Low Fat,0.17,Snack Foods,450.08,OUT003,2011,Large,Tier 1,Grocery Store,3511.54
+ITM0850,6.26,Low Fat,0.046,Soft Drinks,165.66,OUT005,1999,Medium,Tier 3,Grocery Store,1941.82
+ITM0851,2.72,Low Fat,0.034,Fruits & Vegetables,392.87,OUT001,2003,Large,Tier 3,Grocery Store,989.34
+ITM0852,8.28,Regular,0.08,Health and Hygiene,147.99,OUT005,2005,Large,Tier 1,Supermarket Type2,834.91
+ITM0853,3.94,Regular,0.09,Fruits & Vegetables,332.49,OUT002,2002,Small,Tier 2,Supermarket Type2,2027.99
+ITM0854,11.88,Low Fat,0.138,Soft Drinks,154.57,OUT004,2005,Medium,Tier 3,Supermarket Type1,972.42
+ITM0855,18.25,Low Fat,0.204,Soft Drinks,436.38,OUT004,2001,Medium,Tier 1,Supermarket Type2,2738.61
+ITM0856,17.95,Low Fat,0.127,Soft Drinks,110.93,OUT001,2011,Medium,Tier 3,Supermarket Type1,1150.12
+ITM0857,17.16,Low Fat,0.114,Frozen Foods,118.27,OUT004,2011,Large,Tier 2,Supermarket Type1,1618.45
+ITM0858,19.43,Low Fat,0.099,Baking Goods,360.49,OUT002,2006,Small,Tier 1,Supermarket Type2,2790.68
+ITM0859,7.69,Low Fat,0.048,Fruits & Vegetables,209.0,OUT001,2009,Large,Tier 2,Supermarket Type1,2836.98
+ITM0860,10.28,Regular,0.156,Frozen Foods,361.94,OUT002,1999,Large,Tier 1,Supermarket Type2,2033.0
+ITM0861,11.37,Low Fat,0.024,Fruits & Vegetables,225.0,OUT002,2014,Large,Tier 3,Grocery Store,2570.75
+ITM0862,7.23,Regular,0.158,Frozen Foods,272.78,OUT001,2020,Large,Tier 2,Supermarket Type2,2053.61
+ITM0863,4.82,Regular,0.014,Baking Goods,201.67,OUT003,2008,Medium,Tier 3,Supermarket Type1,1635.14
+ITM0864,13.94,Low Fat,0.014,Frozen Foods,277.15,OUT003,2017,Medium,Tier 3,Grocery Store,2259.59
+ITM0865,5.63,Regular,0.207,Frozen Foods,184.5,OUT004,2009,Large,Tier 1,Supermarket Type2,1371.7
+ITM0866,4.04,Regular,0.145,Dairy,92.81,OUT003,2007,Large,Tier 3,Supermarket Type1,2877.89
+ITM0867,10.93,Regular,0.069,Snack Foods,450.09,OUT003,2019,Medium,Tier 3,Supermarket Type2,573.95
+ITM0868,18.44,Low Fat,0.08,Snack Foods,206.84,OUT004,2000,Small,Tier 1,Supermarket Type1,685.14
+ITM0869,16.46,Regular,0.012,Frozen Foods,338.12,OUT002,2010,Medium,Tier 2,Supermarket Type1,2364.84
+ITM0870,3.21,Low Fat,0.132,Baking Goods,245.3,OUT005,2007,Large,Tier 1,Grocery Store,1633.56
+ITM0871,14.67,Low Fat,0.167,Dairy,250.26,OUT005,2015,Medium,Tier 2,Supermarket Type2,2494.88
+ITM0872,11.12,Regular,0.189,Snack Foods,152.26,OUT002,2009,Medium,Tier 2,Supermarket Type1,1827.43
+ITM0873,0.91,Regular,0.166,Household,490.44,OUT005,2005,Small,Tier 3,Grocery Store,2230.52
+ITM0874,17.86,Low Fat,0.238,Baking Goods,312.37,OUT003,2007,Large,Tier 3,Supermarket Type1,2698.21
+ITM0875,7.85,Regular,0.155,Baking Goods,374.83,OUT001,2016,Small,Tier 3,Supermarket Type2,1318.9
+ITM0876,0.71,Low Fat,0.062,Snack Foods,375.35,OUT001,2006,Large,Tier 2,Supermarket Type2,480.25
+ITM0877,7.34,Low Fat,0.182,Frozen Foods,297.85,OUT003,2012,Small,Tier 2,Grocery Store,1504.25
+ITM0878,13.71,Regular,0.148,Fruits & Vegetables,219.08,OUT005,2009,Small,Tier 3,Supermarket Type2,2444.92
+ITM0879,18.46,Low Fat,0.062,Snack Foods,274.45,OUT001,2015,Large,Tier 1,Supermarket Type1,1132.72
+ITM0880,4.28,Regular,0.187,Canned,430.13,OUT004,2001,Medium,Tier 3,Supermarket Type1,3086.1
+ITM0881,5.53,Regular,0.214,Frozen Foods,371.21,OUT004,2012,Medium,Tier 1,Supermarket Type2,2453.02
+ITM0882,5.21,Regular,0.076,Household,56.47,OUT003,2005,Small,Tier 1,Supermarket Type2,2208.98
+ITM0883,10.27,Low Fat,0.202,Dairy,392.82,OUT004,2007,Medium,Tier 3,Supermarket Type2,1761.47
+ITM0884,15.7,Regular,0.109,Frozen Foods,332.56,OUT003,2006,Medium,Tier 2,Supermarket Type2,933.4
+ITM0885,4.41,Regular,0.249,Snack Foods,496.71,OUT002,2018,Medium,Tier 1,Supermarket Type1,713.59
+ITM0886,6.4,Regular,0.206,Fruits & Vegetables,337.44,OUT005,2011,Large,Tier 3,Supermarket Type1,2751.96
+ITM0887,12.74,Low Fat,0.17,Snack Foods,455.2,OUT002,2013,Medium,Tier 2,Supermarket Type1,698.18
+ITM0888,17.52,Regular,0.108,Frozen Foods,281.53,OUT001,2012,Small,Tier 3,Supermarket Type2,3028.46
+ITM0889,7.0,Regular,0.235,Frozen Foods,141.12,OUT002,2017,Medium,Tier 3,Supermarket Type1,529.34
+ITM0890,5.67,Regular,0.108,Baking Goods,409.42,OUT003,2011,Small,Tier 2,Supermarket Type2,1817.89
+ITM0891,7.51,Regular,0.042,Fruits & Vegetables,118.02,OUT003,2020,Large,Tier 3,Supermarket Type2,757.86
+ITM0892,5.69,Regular,0.07,Frozen Foods,273.15,OUT003,2004,Large,Tier 3,Supermarket Type2,432.44
+ITM0893,0.7,Regular,0.163,Fruits & Vegetables,65.25,OUT003,2010,Medium,Tier 3,Supermarket Type1,722.82
+ITM0894,11.09,Regular,0.235,Household,377.05,OUT005,2003,Large,Tier 3,Grocery Store,1236.2
+ITM0895,2.73,Low Fat,0.093,Dairy,243.44,OUT004,2004,Medium,Tier 2,Supermarket Type1,1589.44
+ITM0896,9.83,Regular,0.083,Canned,217.75,OUT003,2013,Large,Tier 2,Grocery Store,349.74
+ITM0897,5.9,Low Fat,0.176,Household,498.72,OUT004,2017,Small,Tier 3,Grocery Store,3599.66
+ITM0898,11.52,Low Fat,0.211,Frozen Foods,51.64,OUT001,2020,Large,Tier 3,Supermarket Type1,2305.68
+ITM0899,10.62,Low Fat,0.249,Dairy,346.21,OUT005,2002,Small,Tier 3,Supermarket Type2,3056.26
+ITM0900,14.5,Low Fat,0.166,Frozen Foods,94.21,OUT002,2000,Medium,Tier 3,Supermarket Type1,2359.97
+ITM0901,10.94,Low Fat,0.163,Canned,64.89,OUT001,2016,Small,Tier 3,Supermarket Type1,1534.83
+ITM0902,3.38,Low Fat,0.011,Snack Foods,412.34,OUT002,2012,Small,Tier 1,Supermarket Type2,1052.25
+ITM0903,13.05,Low Fat,0.174,Dairy,384.75,OUT005,2015,Medium,Tier 2,Supermarket Type2,2524.95
+ITM0904,16.77,Regular,0.161,Health and Hygiene,274.3,OUT005,2005,Medium,Tier 3,Grocery Store,414.28
+ITM0905,15.58,Regular,0.205,Frozen Foods,199.84,OUT003,2008,Medium,Tier 1,Grocery Store,2226.8
+ITM0906,16.12,Regular,0.202,Baking Goods,452.53,OUT002,2017,Large,Tier 2,Supermarket Type2,1114.15
+ITM0907,15.66,Low Fat,0.137,Frozen Foods,262.44,OUT001,2013,Small,Tier 2,Supermarket Type2,1620.7
+ITM0908,4.44,Low Fat,0.242,Health and Hygiene,429.63,OUT001,2019,Medium,Tier 2,Supermarket Type1,2086.78
+ITM0909,5.06,Low Fat,0.22,Soft Drinks,486.94,OUT001,2015,Small,Tier 3,Supermarket Type1,1204.48
+ITM0910,18.83,Regular,0.086,Baking Goods,122.38,OUT002,2014,Medium,Tier 2,Supermarket Type1,2678.97
+ITM0911,19.8,Regular,0.034,Soft Drinks,342.76,OUT003,2017,Medium,Tier 2,Supermarket Type2,2725.79
+ITM0912,17.77,Regular,0.244,Fruits & Vegetables,466.15,OUT002,2017,Medium,Tier 1,Grocery Store,3074.04
+ITM0913,19.18,Low Fat,0.166,Snack Foods,460.62,OUT003,2015,Large,Tier 3,Supermarket Type2,1136.72
+ITM0914,7.76,Low Fat,0.16,Fruits & Vegetables,135.97,OUT005,2000,Large,Tier 3,Supermarket Type1,2583.97
+ITM0915,6.27,Regular,0.232,Health and Hygiene,337.72,OUT003,2019,Large,Tier 3,Supermarket Type1,2442.73
+ITM0916,16.11,Low Fat,0.153,Dairy,454.6,OUT002,2000,Small,Tier 3,Grocery Store,2064.09
+ITM0917,12.38,Regular,0.075,Health and Hygiene,34.6,OUT002,2001,Small,Tier 2,Supermarket Type1,647.33
+ITM0918,4.99,Regular,0.089,Dairy,60.48,OUT003,2007,Large,Tier 2,Supermarket Type2,2673.52
+ITM0919,19.31,Regular,0.149,Baking Goods,141.71,OUT001,2003,Small,Tier 3,Supermarket Type2,2965.79
+ITM0920,6.74,Low Fat,0.13,Fruits & Vegetables,348.22,OUT004,2012,Medium,Tier 2,Grocery Store,1607.14
+ITM0921,0.73,Low Fat,0.221,Baking Goods,328.25,OUT001,2009,Small,Tier 1,Grocery Store,947.09
+ITM0922,11.39,Low Fat,0.196,Soft Drinks,375.33,OUT003,2001,Medium,Tier 1,Grocery Store,937.53
+ITM0923,0.82,Regular,0.232,Snack Foods,340.88,OUT002,2013,Small,Tier 2,Grocery Store,1415.66
+ITM0924,4.46,Regular,0.184,Fruits & Vegetables,337.06,OUT001,2010,Medium,Tier 1,Supermarket Type2,1236.57
+ITM0925,13.41,Low Fat,0.112,Dairy,381.85,OUT003,2018,Large,Tier 2,Supermarket Type2,3297.64
+ITM0926,4.81,Regular,0.245,Household,139.5,OUT003,2017,Medium,Tier 2,Supermarket Type1,2235.67
+ITM0927,1.89,Low Fat,0.204,Household,388.34,OUT004,2016,Large,Tier 2,Supermarket Type1,1461.22
+ITM0928,5.85,Regular,0.221,Baking Goods,364.86,OUT003,2016,Large,Tier 3,Supermarket Type2,2483.62
+ITM0929,9.05,Low Fat,0.114,Household,389.26,OUT003,2001,Medium,Tier 1,Grocery Store,2540.53
+ITM0930,16.0,Regular,0.013,Canned,326.91,OUT003,2014,Medium,Tier 1,Supermarket Type2,1094.4
+ITM0931,18.39,Low Fat,0.206,Snack Foods,327.54,OUT002,2001,Small,Tier 2,Grocery Store,1926.38
+ITM0932,14.02,Low Fat,0.079,Baking Goods,427.51,OUT001,2014,Small,Tier 2,Supermarket Type1,2471.45
+ITM0933,13.72,Low Fat,0.248,Dairy,342.84,OUT002,2019,Medium,Tier 2,Supermarket Type2,1435.32
+ITM0934,13.67,Low Fat,0.216,Dairy,22.72,OUT002,2004,Small,Tier 3,Supermarket Type1,1892.6
+ITM0935,6.81,Low Fat,0.243,Dairy,56.79,OUT002,2008,Medium,Tier 1,Supermarket Type1,259.22
+ITM0936,16.65,Regular,0.041,Health and Hygiene,212.8,OUT005,2020,Large,Tier 1,Supermarket Type1,2734.33
+ITM0937,3.4,Low Fat,0.169,Health and Hygiene,485.35,OUT001,2001,Large,Tier 3,Grocery Store,2567.5
+ITM0938,1.55,Regular,0.049,Baking Goods,57.95,OUT002,2018,Small,Tier 3,Supermarket Type2,2729.18
+ITM0939,9.9,Regular,0.045,Dairy,386.17,OUT004,1999,Large,Tier 1,Supermarket Type2,2913.46
+ITM0940,0.64,Regular,0.214,Baking Goods,409.72,OUT001,2013,Large,Tier 1,Grocery Store,1036.54
+ITM0941,16.48,Regular,0.114,Household,206.44,OUT005,2017,Large,Tier 3,Supermarket Type2,1487.56
+ITM0942,11.04,Regular,0.16,Dairy,404.49,OUT002,2007,Medium,Tier 3,Supermarket Type2,1273.47
+ITM0943,17.59,Low Fat,0.044,Household,211.42,OUT002,2005,Medium,Tier 3,Grocery Store,1575.07
+ITM0944,5.79,Low Fat,0.156,Snack Foods,340.03,OUT001,2009,Medium,Tier 1,Supermarket Type1,1094.34
+ITM0945,2.33,Regular,0.231,Baking Goods,79.71,OUT005,2006,Medium,Tier 2,Grocery Store,2031.36
+ITM0946,8.26,Regular,0.082,Frozen Foods,36.09,OUT004,2015,Small,Tier 2,Supermarket Type1,2103.05
+ITM0947,15.83,Regular,0.248,Fruits & Vegetables,336.18,OUT005,2019,Large,Tier 1,Grocery Store,2436.5
+ITM0948,9.43,Regular,0.116,Dairy,378.97,OUT005,2004,Medium,Tier 3,Supermarket Type1,1082.76
+ITM0949,10.84,Regular,0.115,Snack Foods,245.83,OUT001,2011,Large,Tier 2,Supermarket Type1,2144.63
+ITM0950,5.66,Low Fat,0.055,Fruits & Vegetables,457.21,OUT003,2018,Small,Tier 3,Supermarket Type1,1780.72
+ITM0951,18.28,Low Fat,0.198,Canned,439.63,OUT005,2003,Large,Tier 1,Supermarket Type2,2217.42
+ITM0952,5.73,Regular,0.038,Snack Foods,273.25,OUT003,2016,Small,Tier 1,Supermarket Type1,755.58
+ITM0953,18.66,Regular,0.202,Soft Drinks,180.72,OUT003,2015,Large,Tier 3,Supermarket Type1,1924.27
+ITM0954,1.86,Low Fat,0.19,Frozen Foods,374.04,OUT005,2012,Small,Tier 3,Supermarket Type1,1161.08
+ITM0955,16.24,Regular,0.176,Baking Goods,164.02,OUT005,2010,Medium,Tier 2,Supermarket Type2,883.05
+ITM0956,6.55,Regular,0.056,Frozen Foods,470.28,OUT003,2012,Small,Tier 3,Supermarket Type1,1213.35
+ITM0957,11.49,Low Fat,0.143,Soft Drinks,42.35,OUT003,1999,Medium,Tier 2,Supermarket Type2,2454.07
+ITM0958,19.4,Regular,0.108,Snack Foods,177.53,OUT003,2001,Large,Tier 3,Supermarket Type1,1023.44
+ITM0959,10.83,Regular,0.045,Dairy,100.08,OUT004,2014,Large,Tier 1,Supermarket Type2,2376.74
+ITM0960,17.39,Low Fat,0.133,Dairy,352.82,OUT003,2004,Large,Tier 1,Grocery Store,1004.66
+ITM0961,19.26,Regular,0.167,Canned,415.47,OUT003,2019,Large,Tier 2,Supermarket Type2,3289.98
+ITM0962,11.45,Low Fat,0.015,Household,92.39,OUT003,2013,Medium,Tier 1,Supermarket Type1,2708.07
+ITM0963,8.07,Regular,0.092,Frozen Foods,307.34,OUT002,2001,Small,Tier 1,Supermarket Type1,1463.75
+ITM0964,14.04,Low Fat,0.099,Health and Hygiene,440.25,OUT003,2009,Small,Tier 2,Supermarket Type2,1703.39
+ITM0965,9.1,Regular,0.181,Baking Goods,182.72,OUT004,2011,Large,Tier 1,Supermarket Type2,3116.82
+ITM0966,5.89,Low Fat,0.182,Health and Hygiene,207.86,OUT005,2017,Small,Tier 1,Supermarket Type2,1361.71
+ITM0967,7.4,Regular,0.233,Household,364.62,OUT004,2010,Large,Tier 3,Grocery Store,1959.88
+ITM0968,8.87,Regular,0.02,Health and Hygiene,350.53,OUT005,1999,Small,Tier 1,Supermarket Type1,2419.64
+ITM0969,9.34,Regular,0.25,Dairy,418.13,OUT005,2018,Small,Tier 2,Grocery Store,1615.23
+ITM0970,10.0,Regular,0.096,Fruits & Vegetables,146.57,OUT002,2015,Small,Tier 1,Supermarket Type1,2221.36
+ITM0971,19.7,Low Fat,0.074,Dairy,186.37,OUT005,2007,Small,Tier 3,Grocery Store,2763.21
+ITM0972,15.23,Low Fat,0.173,Health and Hygiene,34.74,OUT002,2018,Medium,Tier 3,Supermarket Type2,2492.85
+ITM0973,8.63,Low Fat,0.242,Fruits & Vegetables,280.62,OUT004,2012,Medium,Tier 1,Supermarket Type2,2023.44
+ITM0974,1.69,Regular,0.099,Fruits & Vegetables,222.26,OUT001,2006,Medium,Tier 1,Supermarket Type2,480.7
+ITM0975,4.11,Low Fat,0.142,Fruits & Vegetables,56.59,OUT003,2011,Large,Tier 1,Supermarket Type1,668.7
+ITM0976,11.88,Regular,0.193,Baking Goods,353.01,OUT002,2015,Small,Tier 2,Supermarket Type2,1261.01
+ITM0977,16.89,Low Fat,0.237,Health and Hygiene,249.11,OUT005,2016,Medium,Tier 2,Supermarket Type2,1869.5
+ITM0978,11.59,Regular,0.222,Dairy,361.97,OUT004,2007,Large,Tier 2,Grocery Store,883.02
+ITM0979,9.98,Low Fat,0.084,Dairy,492.21,OUT001,2020,Large,Tier 2,Supermarket Type1,990.68
+ITM0980,17.69,Regular,0.249,Household,160.67,OUT005,2016,Medium,Tier 1,Supermarket Type2,2716.39
+ITM0981,19.91,Low Fat,0.228,Frozen Foods,187.82,OUT005,2007,Medium,Tier 2,Supermarket Type1,374.3
+ITM0982,9.48,Low Fat,0.247,Frozen Foods,311.65,OUT005,2001,Medium,Tier 1,Supermarket Type1,1486.56
+ITM0983,7.58,Low Fat,0.128,Fruits & Vegetables,464.13,OUT003,2005,Large,Tier 2,Grocery Store,422.57
+ITM0984,16.8,Low Fat,0.023,Frozen Foods,306.6,OUT002,2016,Medium,Tier 1,Grocery Store,2664.5
+ITM0985,15.12,Low Fat,0.245,Fruits & Vegetables,140.27,OUT003,2018,Medium,Tier 3,Supermarket Type2,1388.08
+ITM0986,8.62,Regular,0.14,Soft Drinks,107.11,OUT001,2009,Large,Tier 1,Supermarket Type1,1915.86
+ITM0987,19.94,Low Fat,0.139,Canned,347.19,OUT002,1999,Medium,Tier 2,Supermarket Type2,507.94
+ITM0988,6.52,Regular,0.067,Frozen Foods,306.51,OUT002,2019,Large,Tier 3,Supermarket Type1,2922.77
+ITM0989,5.02,Regular,0.047,Canned,188.42,OUT005,2006,Small,Tier 2,Grocery Store,1123.2
+ITM0990,16.53,Low Fat,0.115,Dairy,51.61,OUT001,2006,Large,Tier 1,Grocery Store,1087.09
+ITM0991,0.64,Low Fat,0.197,Snack Foods,327.97,OUT003,2012,Small,Tier 1,Supermarket Type1,2330.96
+ITM0992,8.27,Regular,0.213,Fruits & Vegetables,99.49,OUT003,2019,Medium,Tier 2,Supermarket Type2,2594.21
+ITM0993,15.24,Regular,0.125,Dairy,208.5,OUT002,2009,Small,Tier 1,Supermarket Type2,1263.6
+ITM0994,10.3,Low Fat,0.064,Fruits & Vegetables,68.5,OUT002,2000,Medium,Tier 2,Supermarket Type2,231.1
+ITM0995,1.04,Low Fat,0.031,Fruits & Vegetables,432.04,OUT004,2008,Large,Tier 3,Supermarket Type1,2368.78
+ITM0996,18.73,Low Fat,0.175,Health and Hygiene,226.03,OUT003,2005,Medium,Tier 1,Grocery Store,3075.46
+ITM0997,17.59,Low Fat,0.173,Dairy,231.8,OUT003,2012,Medium,Tier 2,Grocery Store,833.26
+ITM0998,7.22,Low Fat,0.1,Dairy,216.49,OUT003,2001,Small,Tier 3,Grocery Store,2933.72
+ITM0999,17.82,Regular,0.031,Fruits & Vegetables,150.68,OUT003,2008,Large,Tier 1,Supermarket Type2,700.39
+ITM1000,19.83,Regular,0.243,Soft Drinks,274.68,OUT005,2014,Medium,Tier 2,Grocery Store,593.69

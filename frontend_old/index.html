@@ -1,0 +1,113 @@
+<!-- Classification: Public -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Disruption Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <h1>AI Supply Chain</h1>
+                <span class="subtitle">Disruption Prediction System</span>
+            </div>
+            <button id="run-pipeline-btn" class="primary-btn">
+                <span class="btn-text">Run Pipeline</span>
+                <span class="loader hidden"></span>
+            </button>
+        </header>   
+
+        <div id="initial-loading" class="initial-loading">Loading Dashboard Data...</div>
+        
+        <main id="dashboard" class="hidden">
+            <section class="hero glass-panel">
+                <div class="risk-score-container">
+                    <h2 class="section-title">Overall Risk Score</h2>
+                    <div class="score-display">
+                        <span id="composite-risk" class="score-value">--</span>
+                        <span class="score-max">/100</span>
+                    </div>
+                    <div id="risk-level-badge" class="badge">--</div>
+                    <div id="risk-date" class="date-text">As of: --</div>
+                </div>
+                <div class="sub-scores">
+                    <div class="sub-score">
+                        <span class="label">Weather</span>
+                        <span id="weather-score" class="value">--</span>
+                    </div>
+                    <div class="sub-score">
+                        <span class="label">Logistics</span>
+                        <span id="logistics-score" class="value">--</span>
+                    </div>
+                    <div class="sub-score">
+                        <span class="label">Shipments</span>
+                        <span id="shipment-score" class="value">--</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="dashboard-grid">
+                <section class="card glass-panel">
+                    <h3>Inventory Status</h3>
+                    <div class="inventory-stats">
+                        <div class="stat-item critical">
+                            <span id="inv-critical" class="stat-val">--</span>
+                            <span class="stat-label">Critical</span>
+                        </div>
+                        <div class="stat-item reorder">
+                            <span id="inv-reorder" class="stat-val">--</span>
+                            <span class="stat-label">Reorder</span>
+                        </div>
+                        <div class="stat-item overstock">
+                            <span id="inv-overstock" class="stat-val">--</span>
+                            <span class="stat-label">Overstock</span>
+                        </div>
+                        <div class="stat-item ok">
+                            <span id="inv-ok" class="stat-val">--</span>
+                            <span class="stat-label">OK</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card glass-panel">
+                    <h3>7-Day Risk Trend</h3>
+                    <div class="chart-container">
+                        <canvas id="trendChart"></canvas>
+                    </div>
+                </section>
+
+                <section class="card glass-panel col-span-2">
+                    <h3>Top Risky Vendors</h3>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Vendor</th>
+                                    <th>Delivery Score</th>
+                                </tr>
+                            </thead>
+                            <tbody id="vendor-tbody">
+                                <!-- Populated via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <section class="card glass-panel col-span-2">
+                    <h3>Executive Summary</h3>
+                    <pre id="exec-summary" class="exec-summary-content"></pre>
+                </section>
+            </div>
+        </main>
+        
+        <div id="error-message" class="error-toast hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

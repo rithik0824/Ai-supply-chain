@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supply Chain Intelligence — Live Output Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg-dark: #0a0d14;
+      --bg-card: rgba(18, 24, 38, 0.7);
+      --bg-card-hover: rgba(26, 34, 52, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(99, 102, 241, 0.3);
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --primary: #6366f1;
+      --primary-glow: rgba(99, 102, 241, 0.25);
+      --danger: #ef4444;
+      --danger-glow: rgba(239, 68, 68, 0.2);
+      --warning: #f59e0b;
+      --warning-glow: rgba(245, 158, 11, 0.2);
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.2);
+      --info: #0ea5e9;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at 15% 15%, #151b2e 0%, var(--bg-dark) 50%),
+                  radial-gradient(circle at 85% 85%, #181935 0%, var(--bg-dark) 50%);
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 2rem 1.5rem 4rem;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .brand-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.85rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #ffffff 30%, #818cf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-subtitle {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.25rem;
+    }
+
+    .live-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--success);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      backdrop-filter: blur(8px);
+    }
+
+    .btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: var(--border-accent);
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+      border-color: rgba(99, 102, 241, 0.5);
+      color: white;
+      box-shadow: 0 4px 14px var(--primary-glow);
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+      box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    }
+
+    /* Glass Panels */
+    .glass-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      padding: 1.5rem;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    /* Hero Risk Section */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 2fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .score-banner {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .score-banner::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 160px;
+      height: 160px;
+      background: radial-gradient(circle, var(--danger-glow) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .score-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .score-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.35rem 0.8rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-High, .badge-Critical {
+      background: var(--danger-glow);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.4);
+    }
+
+    .badge-Medium {
+      background: var(--warning-glow);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.4);
+    }
+
+    .badge-Low {
+      background: var(--success-glow);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .score-main {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin: 0.5rem 0 1.5rem;
+    }
+
+    .score-number {
+      font-family: 'Outfit', sans-serif;
+      font-size: 4rem;
+      font-weight: 800;
+      line-height: 1;
+      color: #ffffff;
+      text-shadow: 0 0 20px var(--danger-glow);
+    }
+
+    .score-total {
+      font-size: 1.2rem;
+      color: var(--text-dim);
+      font-weight: 500;
+    }
+
+    .subscores-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .subscore-item {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0.75rem;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      text-align: center;
+    }
+
+    .subscore-item .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .subscore-item .value {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    /* Stats Grid */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .stats-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .stat-card {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .stat-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .icon-critical { background: var(--danger-glow); border: 1px solid rgba(239, 68, 68, 0.3); }
+    .icon-reorder { background: var(--warning-glow); border: 1px solid rgba(245, 158, 11, 0.3); }
+    .icon-overstock { background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.3); }
+    .icon-ok { background: var(--success-glow); border: 1px solid rgba(16, 185, 129, 0.3); }
+
+    .stat-meta .stat-val {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .stat-meta .stat-lbl {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Main Grid */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 900px) {
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Tabs Section */
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .tabs-nav {
+      display: flex;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 1.5rem;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      padding: 0.6rem 1rem;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      position: relative;
+      white-space: nowrap;
+      transition: color 0.2s;
+    }
+
+    .tab-btn.active {
+      color: #ffffff;
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--primary);
+      box-shadow: 0 0 10px var(--primary);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Tables */
+    .table-container {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.85rem;
+    }
+
+    th {
+      background: rgba(255, 255, 255, 0.04);
+      padding: 0.75rem 1rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    /* Exec Summary Block */
+    .exec-summary-box {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1.25rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.85rem;
+      white-space: pre-wrap;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    /* Filter search bar */
+    .filter-bar {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .search-input {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.5rem 0.9rem;
+      color: var(--text-main);
+      font-size: 0.85rem;
+      width: 260px;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px var(--primary-glow);
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+
+    .file-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .file-pill:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-main);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div>
+        <h1 class="brand-title">Supply Chain Intelligence</h1>
+        <div class="brand-subtitle">
+          <span class="live-dot"></span>
+          <span>Live Server Monitor — Output Dashboard</span>
+          <span style="color: var(--text-dim)">•</span>
+          <span id="timestamp-text">Generated: Loading...</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="critical_inventory.csv" download class="btn">
+          📥 critical_inventory.csv
+        </a>
+        <a href="supply_chain_report.json" target="_blank" class="btn">
+          📄 Raw JSON
+        </a>
+        <button id="refresh-btn" class="btn btn-primary" onclick="loadReportData()">
+          🔄 Reload Data
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-grid">
+      <!-- Composite Score -->
+      <div class="glass-card score-banner">
+        <div>
+          <div class="score-header">
+            <span class="score-title">Overall Risk Index</span>
+            <span id="risk-badge" class="badge badge-High">High</span>
+          </div>
+          <div class="score-main">
+            <span id="composite-score" class="score-number">66.6</span>
+            <span class="score-total">/ 100</span>
+          </div>
+          <p id="as-of-date" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+            As of: 2026-06-07
+          </p>
+        </div>
+
+        <div class="subscores-row">
+          <div class="subscore-item">
+            <span class="label">Weather</span>
+            <span id="weather-score" class="value" style="color: #60a5fa;">64.8</span>
+          </div>
+          <div class="subscore-item">
+            <span class="label">Logistics</span>
+            <span id="logistics-score" class="value" style="color: #38bdf8;">43.2</span>
+          </div>
+          <div class="subscore-item">
+            <span class="label">Shipments</span>
+            <span id="shipment-score" class="value" style="color: #f87171;">96.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trend Chart -->
+      <div class="glass-card">
+        <div class="section-title">
+          <span>7-Day Risk Trajectory</span>
+          <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: normal;">Composite Daily Severity</span>
+        </div>
+        <div style="height: 200px; position: relative;">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inventory KPIs -->
+    <div class="stats-row">
+      <div class="glass-card stat-card">
+        <div class="stat-icon icon-critical">🚨</div>
+        <div class="stat-meta">
+          <div id="kpi-critical" class="stat-val" style="color: var(--danger)">0</div>
+          <div class="stat-lbl">Critical Stockouts</div>
+        </div>
+      </div>
+      <div class="glass-card stat-card">
+        <div class="stat-icon icon-reorder">⚠️</div>
+        <div class="stat-meta">
+          <div id="kpi-reorder" class="stat-val" style="color: var(--warning)">25</div>
+          <div class="stat-lbl">Items to Reorder</div>
+        </div>
+      </div>
+      <div class="glass-card stat-card">
+        <div class="stat-icon icon-overstock">📦</div>
+        <div class="stat-meta">
+          <div id="kpi-overstock" class="stat-val" style="color: var(--primary)">130</div>
+          <div class="stat-lbl">Overstocked</div>
+        </div>
+      </div>
+      <div class="glass-card stat-card">
+        <div class="stat-icon icon-ok">✅</div>
+        <div class="stat-meta">
+          <div id="kpi-ok" class="stat-val" style="color: var(--success)">345</div>
+          <div class="stat-lbl">Healthy Inventory</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content & Tabs -->
+    <div class="content-grid">
+      <!-- Left: Interactive Data Explorer -->
+      <div class="glass-card">
+        <div class="tabs-nav">
+          <button class="tab-btn active" onclick="switchTab('tab-inventory', this)">📦 Critical Reorders (<span id="reorder-count">25</span>)</button>
+          <button class="tab-btn" onclick="switchTab('tab-summary', this)">📋 Executive Summary</button>
+          <button class="tab-btn" onclick="switchTab('tab-weather', this)">🌦️ Weather Events</button>
+          <button class="tab-btn" onclick="switchTab('tab-logistics', this)">🚢 Logistics Disruptions</button>
+          <button class="tab-btn" onclick="switchTab('tab-vendors', this)">🏢 Vendor Ratings</button>
+        </div>
+
+        <!-- Tab 1: Critical Inventory -->
+        <div id="tab-inventory" class="tab-content active">
+          <div class="filter-bar">
+            <input type="text" id="inventory-search" class="search-input" placeholder="Search product or category..." onkeyup="filterInventoryTable()">
+            <span style="font-size: 0.8rem; color: var(--text-dim); align-self: center;">Showing recommendations from output/critical_inventory.csv</span>
+          </div>
+          <div class="table-container">
+            <table id="inventory-table">
+              <thead>
+                <tr>
+                  <th>Store</th>
+                  <th>Product</th>
+                  <th>Category</th>
+                  <th>Stock</th>
+                  <th>Reorder Point</th>
+                  <th>Days of Supply</th>
+                  <th>Suggested Order</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="inventory-tbody">
+                <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab 2: Executive Summary -->
+        <div id="tab-summary" class="tab-content">
+          <div id="exec-summary-text" class="exec-summary-box">
+            Loading summary...
+          </div>
+        </div>
+
+        <!-- Tab 3: Weather Risks -->
+        <div id="tab-weather" class="tab-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Date</th>
+                  <th>Severe Weather</th>
+                  <th>Total Precip</th>
+                  <th>Max Wind</th>
+                  <th>Weather Score</th>
+                </tr>
+              </thead>
+              <tbody id="weather-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab 4: Logistics Risks -->
+        <div id="tab-logistics" class="tab-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Region</th>
+                  <th>Carrier</th>
+                  <th>Delay (Hrs)</th>
+                  <th>Warehouse Util.</th>
+                  <th>Fuel Price</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody id="logistics-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab 5: Vendors -->
+        <div id="tab-vendors" class="tab-content">
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Vendor Name</th>
+                  <th>Late Rate</th>
+                  <th>Avg Delay</th>
+                  <th>Shipments</th>
+                  <th>Delivery Score</th>
+                </tr>
+              </thead>
+              <tbody id="vendors-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Inventory Breakdown & Quick Action -->
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="glass-card">
+          <div class="section-title">
+            <span>Inventory Health</span>
+          </div>
+          <div style="height: 220px; position: relative;">
+            <canvas id="inventoryChart"></canvas>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <div class="section-title">
+            <span>Immediate Actions</span>
+          </div>
+          <ul id="action-list" style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.85rem; color: var(--text-muted);">
+            <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+              <span style="color: var(--danger)">•</span>
+              <span>Activate contingency supplier contacts immediately.</span>
+            </li>
+            <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+              <span style="color: var(--warning)">•</span>
+              <span>Expedite critical inventory replenishment orders.</span>
+            </li>
+            <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+              <span style="color: var(--info)">•</span>
+              <span>Review carrier contracts in high-delay regions.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <span>Generated by <strong>AI Supply Chain Disruption Prediction System</strong></span>
+      </div>
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <a href="executive_summary.txt" class="file-pill">📄 executive_summary.txt</a>
+        <a href="critical_inventory.csv" class="file-pill">📊 critical_inventory.csv</a>
+        <a href="supply_chain_report.json" class="file-pill">📦 supply_chain_report.json</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    let trendChartInstance = null;
+    let inventoryChartInstance = null;
+    let cachedReport = null;
+
+    function switchTab(tabId, el) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      el.classList.add('active');
+      document.getElementById(tabId).classList.add('active');
+    }
+
+    async function loadReportData() {
+      try {
+        // Try fetching the live report JSON relative to this HTML file
+        const res = await fetch('supply_chain_report.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('Failed to load JSON');
+        const data = await res.json();
+        cachedReport = data;
+        renderDashboard(data);
+      } catch (err) {
+        console.warn('Could not fetch JSON directly, attempting fallback...', err);
+        if (window.EMBEDDED_REPORT) {
+          renderDashboard(window.EMBEDDED_REPORT);
+        }
+      }
+    }
+
+    function renderDashboard(data) {
+      if (!data) return;
+
+      // Timestamp
+      if (data.generated_at) {
+        const dt = new Date(data.generated_at);
+        document.getElementById('timestamp-text').textContent = 'Generated: ' + dt.toLocaleString();
+      }
+
+      // Risk Snapshot
+      const snap = data.risk_snapshot || {};
+      const score = snap.composite_risk_score !== undefined ? snap.composite_risk_score.toFixed(1) : '--';
+      document.getElementById('composite-score').textContent = score;
+      document.getElementById('as-of-date').textContent = 'As of: ' + (snap.as_of_date || 'N/A');
+
+      const badge = document.getElementById('risk-badge');
+      badge.textContent = snap.risk_level || 'Unknown';
+      badge.className = 'badge badge-' + (snap.risk_level || 'Medium');
+
+      document.getElementById('weather-score').textContent = snap.weather_score !== undefined ? snap.weather_score.toFixed(1) : '--';
+      document.getElementById('logistics-score').textContent = snap.logistics_score !== undefined ? snap.logistics_score.toFixed(1) : '--';
+      document.getElementById('shipment-score').textContent = snap.shipment_score !== undefined ? snap.shipment_score.toFixed(1) : '--';
+
+      // Inventory KPIs
+      const inv = data.inventory || {};
+      document.getElementById('kpi-critical').textContent = inv.critical_items || 0;
+      document.getElementById('kpi-reorder').textContent = inv.reorder_items || 0;
+      document.getElementById('kpi-overstock').textContent = inv.overstock_items || 0;
+      document.getElementById('kpi-ok').textContent = inv.ok_items || 0;
+      document.getElementById('reorder-count').textContent = (inv.critical_recommendations || []).length;
+
+      // Exec Summary
+      document.getElementById('exec-summary-text').textContent = data.executive_summary || 'No summary available.';
+
+      // Render Tables
+      renderInventoryTable(inv.critical_recommendations || []);
+      renderWeatherTable(data.top_weather_risks || []);
+      renderLogisticsTable(data.top_logistics_risks || []);
+      renderVendorsTable(data.top_vendor_risks || []);
+
+      // Render Charts
+      renderTrendChart(data.risk_trend_7d);
+      renderInventoryChart(inv);
+    }
+
+    function renderInventoryTable(items) {
+      const tbody = document.getElementById('inventory-tbody');
+      tbody.innerHTML = '';
+      if (!items.length) {
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; color: var(--text-dim); padding: 2rem;">No items currently needing replenishment.</td></tr>';
+        return;
+      }
+
+      items.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><span style="font-family: monospace; font-weight: 600;">${item['Store ID'] || ''}</span></td>
+          <td><span style="font-weight: 500;">${item['Product ID'] || ''}</span></td>
+          <td>${item['Category'] || ''}</td>
+          <td><strong style="color: ${item['Inventory Level'] < 100 ? '#f87171' : '#f59e0b'};">${item['Inventory Level']}</strong></td>
+          <td>${item['reorder_point']}</td>
+          <td>${item['days_of_supply']} d</td>
+          <td><strong>+${item['suggested_order_qty']}</strong></td>
+          <td><span class="badge badge-High" style="font-size: 0.7rem; padding: 0.2rem 0.5rem;">${item['action']}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterInventoryTable() {
+      const query = document.getElementById('inventory-search').value.toLowerCase();
+      const rows = document.querySelectorAll('#inventory-tbody tr');
+      rows.forEach(r => {
+        const text = r.textContent.toLowerCase();
+        r.style.display = text.includes(query) ? '' : 'none';
+      });
+    }
+
+    function renderWeatherTable(items) {
+      const tbody = document.getElementById('weather-tbody');
+      tbody.innerHTML = '';
+      items.forEach(w => {
+        const tr = document.createElement('tr');
+        const dt = w.date ? new Date(w.date).toLocaleDateString() : 'N/A';
+        tr.innerHTML = `
+          <td><strong>${w.region}</strong></td>
+          <td>${dt}</td>
+          <td>${w.severe_weather ? '⚠️ Severe Event' : 'Normal'}</td>
+          <td>${(w.precip_total || 0).toFixed(1)} mm</td>
+          <td>${(w.wind_max || 0).toFixed(1)} km/h</td>
+          <td><span style="color: #f87171; font-weight: bold;">${(w.weather_score || 0).toFixed(1)}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderLogisticsTable(items) {
+      const tbody = document.getElementById('logistics-tbody');
+      tbody.innerHTML = '';
+      items.forEach(l => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><strong>${l.region}</strong></td>
+          <td>${l.carrier}</td>
+          <td><span style="color: #fbbf24;">${l.delay_hours_avg} hrs</span></td>
+          <td>${l.warehouse_utilization_percent}%</td>
+          <td>$${l.fuel_price_usd_per_barrel}</td>
+          <td><span style="color: #f87171; font-weight: bold;">${(l.logistics_score || 0).toFixed(1)}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderVendorsTable(items) {
+      const tbody = document.getElementById('vendors-tbody');
+      tbody.innerHTML = '';
+      items.forEach(v => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+          <td><strong>${v.Vendor}</strong></td>
+          <td>${((v.late_rate || 0) * 100).toFixed(1)}%</td>
+          <td>${(v.avg_delay || 0).toFixed(1)} d</td>
+          <td>${v.shipment_count || 0}</td>
+          <td><span style="color: #f87171; font-weight: bold;">${(v.delivery_score || 0).toFixed(1)}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function renderTrendChart(trend) {
+      if (!trend || !trend.dates) return;
+      const ctx = document.getElementById('trendChart').getContext('2d');
+      if (trendChartInstance) trendChartInstance.destroy();
+
+      const gradient = ctx.createLinearGradient(0, 0, 0, 180);
+      gradient.addColorStop(0, 'rgba(99, 102, 241, 0.4)');
+      gradient.addColorStop(1, 'rgba(99, 102, 241, 0.0)');
+
+      trendChartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: trend.dates.map(d => d.slice(5)),
+          datasets: [{
+            label: 'Risk Score',
+            data: trend.scores,
+            borderColor: '#818cf8',
+            backgroundColor: gradient,
+            borderWidth: 2.5,
+            pointBackgroundColor: '#ffffff',
+            pointBorderColor: '#6366f1',
+            pointRadius: 4,
+            pointHoverRadius: 6,
+            fill: true,
+            tension: 0.35
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#1e293b',
+              titleColor: '#f8fafc',
+              bodyColor: '#cbd5e1',
+              borderColor: 'rgba(255,255,255,0.1)',
+              borderWidth: 1,
+              padding: 10
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: 'rgba(255, 255, 255, 0.04)' },
+              ticks: { color: '#64748b', font: { size: 11 } }
+            },
+            y: {
+              min: 0,
+              max: 100,
+              grid: { color: 'rgba(255, 255, 255, 0.04)' },
+              ticks: { color: '#64748b', font: { size: 11 } }
+            }
+          }
+        }
+      });
+    }
+
+    function renderInventoryChart(inv) {
+      const ctx = document.getElementById('inventoryChart').getContext('2d');
+      if (inventoryChartInstance) inventoryChartInstance.destroy();
+
+      inventoryChartInstance = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Critical', 'Reorder', 'Overstock', 'OK'],
+          datasets: [{
+            data: [
+              inv.critical_items || 0,
+              inv.reorder_items || 0,
+              inv.overstock_items || 0,
+              inv.ok_items || 0
+            ],
+            backgroundColor: [
+              '#ef4444',
+              '#f59e0b',
+              '#6366f1',
+              '#10b981'
+            ],
+            borderWidth: 0,
+            hoverOffset: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              position: 'bottom',
+              labels: { color: '#94a3b8', boxWidth: 12, padding: 14 }
+            }
+          },
+          cutout: '72%'
+        }
+      });
+    }
+
+    // Auto-load on page load
+    document.addEventListener('DOMContentLoaded', loadReportData);
+  </script>
+</body>
+</html>

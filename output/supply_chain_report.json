@@ -1,0 +1,424 @@
+{
+  "generated_at": "2026-06-07T15:20:22.580021",
+  "executive_summary": "Supply Chain Risk Report \u2014 2026-06-07\n==================================================\nOverall Risk Level : High (score: 66.57/100)\n\nKEY FINDINGS:\n  \u2022 Inventory: 0 CRITICAL item(s) at stockout risk, 25 needing reorder, 130 overstocked.\n  \u2022 Weather sub-score  : 64.8/100\n  \u2022 Logistics sub-score: 43.2/100\n  \u2022 Shipment sub-score : 96.02/100\n  \u2022 Top risky vendors  : Aurobindo Pharma Limited, CIPLA LIMITED, BIO-RAD LABORATORIES (FRANCE)\n\nRECOMMENDED ACTIONS:\n  1. Activate contingency supplier contacts immediately.\n  2. Expedite critical inventory replenishment orders.\n  3. Review carrier contracts in high-delay regions.",
+  "risk_snapshot": {
+    "as_of_date": "2026-06-07",
+    "composite_risk_score": 66.57,
+    "risk_level": "High",
+    "weather_score": 64.8,
+    "logistics_score": 43.2,
+    "shipment_score": 96.02
+  },
+  "risk_trend_7d": {
+    "dates": [
+      "2025-12-25",
+      "2025-12-26",
+      "2025-12-27",
+      "2025-12-28",
+      "2025-12-29",
+      "2025-12-30",
+      "2025-12-31"
+    ],
+    "scores": [
+      64.98,
+      51.57,
+      52.36,
+      46.0,
+      49.71,
+      45.2,
+      66.57
+    ],
+    "levels": [
+      "High",
+      "Medium",
+      "Medium",
+      "Medium",
+      "Medium",
+      "Medium",
+      "High"
+    ]
+  },
+  "top_weather_risks": [
+    {
+      "region": "Phoenix",
+      "date": "2024-01-21T00:00:00",
+      "weather_score": 99.62170048725471,
+      "severe_weather": 1,
+      "precip_total": 6012.865234952282,
+      "wind_max": 29.99729214745988
+    },
+    {
+      "region": "Phoenix",
+      "date": "2024-01-20T00:00:00",
+      "weather_score": 96.51728933378767,
+      "severe_weather": 1,
+      "precip_total": 5741.702008281956,
+      "wind_max": 29.999391814635505
+    },
+    {
+      "region": "Phoenix",
+      "date": "2024-02-02T00:00:00",
+      "weather_score": 96.3460788126814,
+      "severe_weather": 1,
+      "precip_total": 5861.2745951138195,
+      "wind_max": 29.98755193101004
+    },
+    {
+      "region": "Phoenix",
+      "date": "2024-02-08T00:00:00",
+      "weather_score": 95.82538708362843,
+      "severe_weather": 1,
+      "precip_total": 5747.10352132616,
+      "wind_max": 29.99400868347088
+    },
+    {
+      "region": "Phoenix",
+      "date": "2024-02-12T00:00:00",
+      "weather_score": 95.62945208651739,
+      "severe_weather": 1,
+      "precip_total": 5756.936816665139,
+      "wind_max": 29.99174630990276
+    }
+  ],
+  "top_logistics_risks": [
+    {
+      "date": "2024-06-24T00:00:00",
+      "region": "Asia-Pacific",
+      "carrier": "OceanExpress",
+      "logistics_score": 98.6559405940594,
+      "logistics_disruption": 1,
+      "delay_hours_avg": 5.0,
+      "warehouse_utilization_percent": 94,
+      "fuel_price_usd_per_barrel": 88.0
+    },
+    {
+      "date": "2024-06-19T00:00:00",
+      "region": "Asia-Pacific",
+      "carrier": "OceanExpress",
+      "logistics_score": 94.08198502777108,
+      "logistics_disruption": 1,
+      "delay_hours_avg": 4.9,
+      "warehouse_utilization_percent": 94,
+      "fuel_price_usd_per_barrel": 86.5
+    },
+    {
+      "date": "2024-06-14T00:00:00",
+      "region": "Asia-Pacific",
+      "carrier": "OceanExpress",
+      "logistics_score": 93.46534653465346,
+      "logistics_disruption": 1,
+      "delay_hours_avg": 5.0,
+      "warehouse_utilization_percent": 94,
+      "fuel_price_usd_per_barrel": 85.0
+    },
+    {
+      "date": "2024-06-22T00:00:00",
+      "region": "Asia-Pacific",
+      "carrier": "OceanExpress",
+      "logistics_score": 92.57351283908879,
+      "logistics_disruption": 1,
+      "delay_hours_avg": 4.7,
+      "warehouse_utilization_percent": 93,
+      "fuel_price_usd_per_barrel": 87.4
+    },
+    {
+      "date": "2024-06-09T00:00:00",
+      "region": "Asia-Pacific",
+      "carrier": "OceanExpress",
+      "logistics_score": 88.89139096836513,
+      "logistics_disruption": 1,
+      "delay_hours_avg": 4.9,
+      "warehouse_utilization_percent": 94,
+      "fuel_price_usd_per_barrel": 83.5
+    }
+  ],
+  "top_shipment_risks": [
+    {
+      "date": "2025-12-13T00:00:00",
+      "country": " Italy",
+      "shipment_score": 97.61363636363636,
+      "delay_rate": 1.0,
+      "avg_customs": 5.6,
+      "shipment_count": 1
+    },
+    {
+      "date": "2024-12-13T00:00:00",
+      "country": " Italy",
+      "shipment_score": 97.61363636363636,
+      "delay_rate": 1.0,
+      "avg_customs": 5.6,
+      "shipment_count": 1
+    },
+    {
+      "date": "2024-08-23T00:00:00",
+      "country": " Japan",
+      "shipment_score": 96.81818181818183,
+      "delay_rate": 1.0,
+      "avg_customs": 5.5,
+      "shipment_count": 1
+    },
+    {
+      "date": "2025-08-23T00:00:00",
+      "country": " Japan",
+      "shipment_score": 96.81818181818183,
+      "delay_rate": 1.0,
+      "avg_customs": 5.5,
+      "shipment_count": 1
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "country": " Germany",
+      "shipment_score": 96.02272727272727,
+      "delay_rate": 1.0,
+      "avg_customs": 5.4,
+      "shipment_count": 1
+    }
+  ],
+  "top_vendor_risks": [
+    {
+      "Vendor": "Aurobindo Pharma Limited",
+      "delivery_score": 69.27897693806842,
+      "late_rate": 0.1407185628742515,
+      "avg_delay": 4.411676646706587,
+      "shipment_count": 668
+    },
+    {
+      "Vendor": "CIPLA LIMITED",
+      "delivery_score": 68.48312612925962,
+      "late_rate": 0.13142857142857142,
+      "avg_delay": 4.777142857142858,
+      "shipment_count": 175
+    },
+    {
+      "Vendor": "BIO-RAD LABORATORIES (FRANCE)",
+      "delivery_score": 55.37784620706117,
+      "late_rate": 0.14285714285714285,
+      "avg_delay": 2.107142857142857,
+      "shipment_count": 28
+    },
+    {
+      "Vendor": "SCMS from RDC",
+      "delivery_score": 50.82208247767079,
+      "late_rate": 0.17153960029607698,
+      "avg_delay": -8.284048852701703,
+      "shipment_count": 5404
+    },
+    {
+      "Vendor": "Orgenics, Ltd",
+      "delivery_score": 43.757936475655505,
+      "late_rate": 0.129973474801061,
+      "avg_delay": 0.8381962864721485,
+      "shipment_count": 754
+    }
+  ],
+  "inventory": {
+    "total_products": 20,
+    "total_stores": 5,
+    "critical_items": 0,
+    "reorder_items": 25,
+    "overstock_items": 130,
+    "ok_items": 345,
+    "critical_recommendations": [
+      {
+        "Store ID": "S001",
+        "Product ID": "P0003",
+        "Category": "Toys",
+        "Inventory Level": 69,
+        "reorder_point": 692.7,
+        "days_of_supply": 0.5,
+        "suggested_order_qty": 665.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0003",
+        "Category": "Toys",
+        "Inventory Level": 69,
+        "reorder_point": 704.4,
+        "days_of_supply": 0.5,
+        "suggested_order_qty": 687.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0003",
+        "Category": "Toys",
+        "Inventory Level": 69,
+        "reorder_point": 764.8,
+        "days_of_supply": 0.5,
+        "suggested_order_qty": 711.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0003",
+        "Category": "Toys",
+        "Inventory Level": 69,
+        "reorder_point": 744.3,
+        "days_of_supply": 0.5,
+        "suggested_order_qty": 683.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0003",
+        "Category": "Toys",
+        "Inventory Level": 69,
+        "reorder_point": 740.6,
+        "days_of_supply": 0.5,
+        "suggested_order_qty": 699.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S005",
+        "Product ID": "P0003",
+        "Category": "Furniture",
+        "Inventory Level": 98,
+        "reorder_point": 772.0,
+        "days_of_supply": 0.6,
+        "suggested_order_qty": 703.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S003",
+        "Product ID": "P0007",
+        "Category": "Electronics",
+        "Inventory Level": 108,
+        "reorder_point": 743.1,
+        "days_of_supply": 0.7,
+        "suggested_order_qty": 697.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S003",
+        "Product ID": "P0007",
+        "Category": "Electronics",
+        "Inventory Level": 108,
+        "reorder_point": 747.0,
+        "days_of_supply": 0.7,
+        "suggested_order_qty": 663.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S003",
+        "Product ID": "P0007",
+        "Category": "Electronics",
+        "Inventory Level": 108,
+        "reorder_point": 778.3,
+        "days_of_supply": 0.7,
+        "suggested_order_qty": 688.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S005",
+        "Product ID": "P0003",
+        "Category": "Furniture",
+        "Inventory Level": 98,
+        "reorder_point": 742.1,
+        "days_of_supply": 0.7,
+        "suggested_order_qty": 715.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S005",
+        "Product ID": "P0003",
+        "Category": "Furniture",
+        "Inventory Level": 98,
+        "reorder_point": 746.0,
+        "days_of_supply": 0.7,
+        "suggested_order_qty": 680.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S005",
+        "Product ID": "P0003",
+        "Category": "Furniture",
+        "Inventory Level": 98,
+        "reorder_point": 786.1,
+        "days_of_supply": 0.7,
+        "suggested_order_qty": 713.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S003",
+        "Product ID": "P0007",
+        "Category": "Electronics",
+        "Inventory Level": 108,
+        "reorder_point": 719.0,
+        "days_of_supply": 0.8,
+        "suggested_order_qty": 655.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S005",
+        "Product ID": "P0003",
+        "Category": "Furniture",
+        "Inventory Level": 98,
+        "reorder_point": 705.1,
+        "days_of_supply": 0.8,
+        "suggested_order_qty": 655.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S003",
+        "Product ID": "P0007",
+        "Category": "Electronics",
+        "Inventory Level": 108,
+        "reorder_point": 682.8,
+        "days_of_supply": 0.9,
+        "suggested_order_qty": 642.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0019",
+        "Category": "Clothing",
+        "Inventory Level": 149,
+        "reorder_point": 766.4,
+        "days_of_supply": 1.0,
+        "suggested_order_qty": 708.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0019",
+        "Category": "Clothing",
+        "Inventory Level": 149,
+        "reorder_point": 691.2,
+        "days_of_supply": 1.1,
+        "suggested_order_qty": 653.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0019",
+        "Category": "Clothing",
+        "Inventory Level": 149,
+        "reorder_point": 716.8,
+        "days_of_supply": 1.1,
+        "suggested_order_qty": 657.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0019",
+        "Category": "Clothing",
+        "Inventory Level": 149,
+        "reorder_point": 725.1,
+        "days_of_supply": 1.1,
+        "suggested_order_qty": 657.0,
+        "action": "REORDER"
+      },
+      {
+        "Store ID": "S001",
+        "Product ID": "P0019",
+        "Category": "Clothing",
+        "Inventory Level": 149,
+        "reorder_point": 678.4,
+        "days_of_supply": 1.2,
+        "suggested_order_qty": 662.0,
+        "action": "REORDER"
+      }
+    ]
+  }
+}

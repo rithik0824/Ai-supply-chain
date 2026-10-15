@@ -1,0 +1,15 @@
+Supply Chain Risk Report — 2025-12-31
+==================================================
+Overall Risk Level : High (score: 66.57/100)
+
+KEY FINDINGS:
+  • Inventory: 0 CRITICAL item(s) at stockout risk, 25 needing reorder, 130 overstocked.
+  • Weather sub-score  : 64.8/100
+  • Logistics sub-score: 43.2/100
+  • Shipment sub-score : 96.02/100
+  • Top risky vendors  : Aurobindo Pharma Limited, CIPLA LIMITED, BIO-RAD LABORATORIES (FRANCE)
+
+RECOMMENDED ACTIONS:
+  1. Activate contingency supplier contacts immediately.
+  2. Expedite critical inventory replenishment orders.
+  3. Review carrier contracts in high-delay regions.
