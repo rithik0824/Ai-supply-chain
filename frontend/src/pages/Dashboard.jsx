@@ -8,21 +8,22 @@ export default function Dashboard() {
   const [error, setError] = useState('');
   
   useEffect(() => {
-    // Set axios auth header from localstorage just in case
     const token = localStorage.getItem('token');
     if (token) axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-    
-    fetchReport();
-  }, []);
 
-  const fetchReport = async () => {
-    try {
-      const res = await axios.get('/api/report');
-      setReport(res.data);
-    } catch (err) {
-      console.log('No report found yet.');
-    }
-  };
+    let isMounted = true;
+    axios.get('/api/report')
+      .then(res => {
+        if (isMounted) setReport(res.data);
+      })
+      .catch(() => {
+        console.log('No report found yet.');
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const runPipeline = async () => {
     setLoading(true);

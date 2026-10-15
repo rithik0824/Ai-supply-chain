@@ -27,7 +27,7 @@ function App() {
         if (!res.ok) throw new Error('Failed to fetch user');
         const data = await res.json();
         setUsername(data.username);
-      } catch (e) {
+      } catch {
         setUsername(null);
       }
     };

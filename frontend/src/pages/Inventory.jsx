@@ -1,25 +1,28 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Package, AlertTriangle, CheckCircle, Search } from 'lucide-react';
+import { AlertTriangle, CheckCircle } from 'lucide-react';
 
 export default function Inventory() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchInventory();
-  }, []);
+    let isMounted = true;
+    axios.get('/api/inventory')
+      .then(res => {
+        if (isMounted) setItems(res.data);
+      })
+      .catch(err => {
+        console.error(err);
+      })
+      .finally(() => {
+        if (isMounted) setLoading(false);
+      });
 
-  const fetchInventory = async () => {
-    try {
-      const res = await axios.get('/api/inventory');
-      setItems(res.data);
-    } catch (err) {
-      console.error(err);
-    } finally {
-      setLoading(false);
-    }
-  };
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   if (loading) return <div style={{ padding: '2rem' }}>Loading inventory data from CSV...</div>;
 

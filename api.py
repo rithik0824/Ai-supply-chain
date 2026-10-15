@@ -9,6 +9,7 @@ from pydantic import BaseModel
 import json
 from pathlib import Path
 import sys
+import pandas as pd
 
 # Ensure the local directory is in the path so we can import from main
 sys.path.insert(0, str(Path(__file__).parent))
@@ -144,7 +145,9 @@ async def run_system(current_user: database.User = Depends(auth.get_current_user
 # Mount the frontend directory to serve the UI
 # Check if frontend/dist exists, otherwise mount frontend_old or fail gracefully
 import os
-if os.path.exists(str(Path(__file__).parent / "frontend" / "dist")):
-    app.mount("/", StaticFiles(directory="frontend/dist", html=True), name="frontend")
+dist_dir = Path(__file__).parent / "frontend" / "dist"
+if dist_dir.exists():
+    app.mount("/", StaticFiles(directory=str(dist_dir), html=True), name="frontend")
 else:
     print("Warning: frontend/dist not found. The UI will not be served.")
+
